@@ -1,0 +1,26 @@
+.a-headerFrame{
+	width: 1000px;
+	/*height: 500px;*/
+	opacity: 0.9;
+	color: #FFF;
+	font-size: 15px;
+	background-color:gray;
+	position: absolute;
+	top: 35px;
+	left: 50px;
+	z-index: 10001;
+	display: none;
+}
+.a-headLeft:hover .a-headerFrame{
+	display: block;
+}
+.a-headerFrame>a{
+	color: #FFF;
+	
+}
+.a-headerFrame>a:hover{
+	color: red;
+}
+.a-headLeft{
+	position: relative;
+}

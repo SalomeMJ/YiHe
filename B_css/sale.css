@@ -1,0 +1,198 @@
+#B_saleContent{
+    width: 100%;
+    min-width: 1190px;
+    height: 2514px;
+    background-color: #f2f2f2;
+}
+#B_banner{
+    position: relative;
+}
+#B_banner img{
+    width: 100%;
+    min-width: 1190px;
+    height: 362px;
+    position: absolute;
+    z-index: 55;
+}
+#B_scroll{
+    width: 100%;
+    height: 362px;
+    margin: 0 auto;
+    position: relative;
+}
+#B_number{
+    position: absolute;
+    top:333px;
+    left:48%;
+    z-index: 8888;
+}
+#B_number div{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #323333;
+}
+#B_sales{
+    width: 1190px;
+    min-width: 1190px;
+    margin: 0 auto;
+    /*border:1px solid red;*/
+}
+.B_saleTitle{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.B_saleTitle span:nth-child(1) {
+    display: inline-block;
+    font-size: 37px;
+    color: #ff6c00;
+}
+.B_saleTitle span:nth-child(2){
+    display: inline-block;
+    font-size: 37px;
+    color:#008de1;
+}
+.B_saleTitle span:nth-child(3){
+    display: inline-block;
+    font-size: 19px;
+    color:#696969;
+    margin-left: 15px;
+}
+.B_gift{
+    display: inline-block;
+    height: 393px;
+    background-color: #fff;
+    border:1px solid #d3d3d3;
+    margin-right: 13px;
+}
+.B_last{
+    float: right;
+    margin-right: -2px;
+}
+.B_giftTitle{
+    width: 245px;
+    text-align: left;
+}
+.B_saleItems  .B_saleLi{
+   border:1px solid #ff6c00;
+}
+/*限时抢购轮播图*/
+div.swiper-container {
+    width: 1181px;
+    height: 393px;
+    position: relative;
+    margin-left: -15px;
+}
+div.B_onlyScroll div.swiper-slide{
+
+
+}
+div.swiper-slide img{
+    display: inline-block;
+    width:280px;
+}
+div.swiper-button-prev,div.swiper-button-next{
+    width: 56px;
+    height: 97px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    color:#fff;
+    font-size: 40px;
+    text-align: center;
+    line-height: 97px;
+    font-weight: bold;
+}
+div.swiper-button-next{
+    position: absolute;
+    top: 190px;
+    right: 0;
+}
+
+/***************************************/
+ .B_saleItem{
+    position: relative;
+     overflow: hidden;
+
+}
+#B_saleRight div{
+    width: 57px;
+    height: 96px;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    position: absolute;
+    top: 240px;
+    right: 0;
+}
+#B_saleRight img{
+    position: absolute;
+    top: 265px;
+    right: 5px;
+}
+#B_saleLeft div{
+    width: 57px;
+    height: 96px;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    position: absolute;
+    top: 240px;
+    left: 0;
+}
+#B_saleLeft img {
+    position: absolute;
+    top: 265px;
+    left: 5px;
+}
+
+.B_saleItems ul{
+    margin-top: -20px;
+}
+.B_saleItems ul li{
+    display: inline-block;
+    width: 220px;
+    height: 335px;
+    margin-top: 16px;
+    margin-right: 13px;
+
+}
+.B_saleItems ul .B_last{
+    float: right;
+    margin-right: -1px;
+}
+.B_saleItems ul li .B_giftTitle{
+    width: 179px;
+    font-size: 14px;
+}
+#B_saleContent #B_messageBottom{
+    display: block;
+    text-align: center;
+    margin:30px auto;
+
+}
+ul#B_firstPages{
+    height: 1420px;
+    overflow: hidden;
+}
+#B_page span.B_onePage{
+    background-color: #008de1;
+    color:#fff;
+}
+#B_messageBottom div#B_page span.B_nextPage{
+    display: inline-block;
+    width: 90px;
+    height: 35px;
+    /*margin-left: -9px;*/
+    border-top:1px solid #d3d3d3;
+    border-right:1px solid #d3d3d3;
+    border-bottom:1px solid #d3d3d3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

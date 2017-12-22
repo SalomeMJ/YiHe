@@ -1,0 +1,201 @@
+/*#a-nav{*/
+	/*width: 100%;*/
+	/*min-width: 1190px;*/
+/*}*/
+#a-nav{
+	width: 1185px;
+	margin: 0 auto;
+	height: 45px;
+	line-height: 45px;
+}
+#a-items{
+	display: inline-block;
+	width: 176px;
+	font-size: 20px;
+	color:#fff;
+	text-align: center;
+    background-color: #008de1;
+    height: 45px;
+    position: relative;
+    z-index: 10000;
+	vertical-align: top;
+	
+}
+#a-items>span{
+	display: inline-block;
+	/*width: 176px;*/
+	
+		
+}
+#a-itemsSign{
+	background: url(../A_images/tupianjingling.png) 0 0 no-repeat;
+	background-position: 0px -183px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-left: 18px;
+	transition: transform 0.5s;
+}
+#a-items:hover #a-itemsSign{
+	transform: rotate(-180deg);
+}
+
+/*nav导航*/
+#a-navContent{
+	display: inline-block;
+	vertical-align: top;
+}
+#a-navContent>li{
+	display: inline-block;
+	padding: 0px 40px;
+	font-size: 15px;
+	
+}
+#a-navContent>li>a:hover,#a-navRight>a:hover{
+	color: #ff6c00;
+}
+#a-navContent>li>a,#a-navRight>a{
+	color: #333333;
+	font-size: 18px;
+}
+#a-navRight{
+   display: inline-block;
+	width: 176px;
+	margin-left: 80px;
+	
+}
+#a-mengban{
+	height: 415px;
+	background-color: #000000;
+	opacity: 0.7;
+	display: inline-block;
+	width: 350px;
+	position: relative;
+	top: -415px;
+	left: 176px;
+	
+}
+#a-navRight{
+	font-size: 15px;
+	text-align: right;
+}
+#a-navRight:hover #a-navFrame{
+	display: block;
+}
+.a-items1{
+	padding-left: 10px;
+	
+	color: #fff;
+	font-size: 16px;
+	
+	text-align: left;
+	background-color: #2F4F4F;
+	
+	border-bottom: 1px  solid gray;
+	/*display: inline-block;*/
+
+}
+.a-items1Content{
+	height: 415px;
+	/*background-color: #000000;*/
+	display: inline-block;
+	width: 350px;
+	/*position: relative;*/
+	z-index: 10000;
+	top: 45px;
+	left: 176px;
+	/*float: left;*/
+	position: absolute;
+}
+.a-items1Content>ul>li>a{
+	color:#fff;
+	font-size: 14px;
+
+
+}
+.a-items1Content>ul{
+	margin-top: 10px;
+}
+.a-items1Content>ul>li{
+		display: inline-block;
+		padding: 2px 10px 7px; 
+		height: 25px;
+		line-height: 25px;
+	    float: left;
+		border-right: 1px solid #FFFFFF;
+}
+.a-items1Content>ul>li>a:hover{
+	color:#f60;	
+}
+.zindex{
+	z-index: 1000;
+}
+
+#a-navFrame{
+	background-color: #FFFFFF;
+	width: 176px;
+ text-align: center;
+   height:300px;
+  position: relative;
+  z-index: 10000;
+ display: none;
+ overflow: auto;
+	
+	
+}
+.service>div{
+	width: 20px;
+	height: 20px;
+	background: url(../A_images/tupianjingling.png) no-repeat;
+	background-position: -58px 0px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	
+}
+.service{
+	width: 160px;
+	background-color: #f60;
+	text-align: center;
+     border-radius: 10px;
+     height: 30px;
+     line-height: 30px;  
+     margin-top: 10px;
+     color:#FFFFFF;
+	margin-left: 8px;
+}
+.service>img{
+	width: 160px;
+}
+.swiper-container{
+	border-top: 3px solid #008de1;
+}
+/*banner图*/
+.swiper-container{
+	width: 100%;
+	min-width: 1190px;
+}
+.swiper-wrapper{
+	width: 1185px;
+	margin: 0 auto;
+	border:1px solid red;
+}
+.swiper-slide img{
+	width: 100%;
+	height: 507px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,439 @@
+@charset 'utf-8';
+.type-area {
+	width: 1180px;
+	height: 2640px;
+	border: 1px solid #999;
+	margin-top: 28px;
+	margin-bottom: 40px;
+}
+.ff-header {
+	overflow: hidden;
+	/*background-color: brown;*/
+}
+.ff-header .logo {
+	float: left;
+	width: 140px;
+	height: 82px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+.f-nav {
+	float: right;
+	margin-top: 78px;
+	margin-right: 42px;
+}
+.f-nav .f-car {
+	display: inline-block;
+	background-image: url('../Fimages/19_03.png');
+	width: 235px;
+	height: 42px;
+	line-height: 42px;
+	margin-right: -15px;
+	font-size: 20px;
+	text-align: center;
+}
+.f-nav .f-format {
+	display: inline-block;
+	background-image: url('../Fimages/20_03.png');
+	width: 250px;
+	height: 42px;
+	line-height: 42px;
+	margin-right: -15px;
+	font-size: 20px;
+	text-align: center;
+}
+.f-nav .f-format a {
+	color: #fff;
+}
+.f-nav .f-ok {
+	display: inline-block;
+	background-image: url('../Fimages/21_03.png');
+	width: 235px;
+	height: 42px;
+	line-height: 42px;
+	margin-right: -15px;
+	font-size: 20px;
+	text-align: center;
+}
+.f-pf {
+	width: 1104px;
+	/*background-color: blue;*/
+	margin-left: 40px;
+	margin-top: 42px;
+	margin-bottom: 20px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	border-top:1px solid #999;
+	border-bottom: 1px solid #999;
+	overflow: hidden;
+}
+.f-pf span {
+	font-size: 18px;
+}
+.f-pf button {
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #ec6a17;
+	border: 1px solid #ec6a17;
+	color: #fff;
+	border-radius: 5px;
+	float: right;
+}
+.f-place {
+	width: 1104px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+	border: 1px solid #999;
+	margin-left: 40px;
+	margin-top: 12px;
+	padding-left: 20px;
+	background-color: #fff3ec;
+}
+.f-pl {
+	width: 1104px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+	border: 1px solid #999;
+	margin-left: 40px;
+	margin-top: 12px;
+	padding-left: 20px;
+	background-color: #fff3ec;
+}
+.f-place a {
+	color: #008de1;
+}
+.f-pl a {
+	color: #008de1;
+}
+.f-pl>span:nth-child(2) {
+	color: #666;
+}
+.f-pl>span:nth-child(3) {
+	color: #999;
+	margin-left: 28px;
+	cursor: pointer;
+}
+.f-pl>span:nth-child(4) {
+	margin-right: 26px;
+	margin-left: 270px;
+}
+.f-pl>span:nth-child(5) {
+	margin-right: 26px;
+}
+.f-place>span:nth-child(3){
+	margin-left: 225px;
+	color: #ec6a17;
+	cursor: pointer;
+}
+.f-place>span:nth-child(4){
+	margin-left: 26px;
+}
+.f-place>span:nth-child(5){
+	margin-left: 26px;
+}
+.f-sz {
+	margin-top: 32px;
+	/*background-color: yellow;*/
+}
+.f-sz span {
+	margin: 0 44px;
+}
+.f-sz a {
+	color: #008de1;
+	font-size: 16px;
+}
+.f-sp {
+	width: 1104px;
+	font-size: 20px;
+	border-bottom: 1px solid #999;
+	padding-bottom: 20px;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+.f-qjd {
+	width: 1104px;
+	height: 365px;
+	border: 1px solid #999;
+	margin-left: 40px;
+	margin-top: 22px;
+}
+.f-qjd p {
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	background-color: #eee;
+}
+.f-qjd p .f-hl{
+	margin-left: 20px;
+	margin-right: 310px;
+}
+.f-qjd p span {
+	margin-left: 110px;
+}
+.f-qjd ul  {	
+	height: 80px;
+	border-bottom: 1px solid #999;
+}
+.f-qjd ul li {
+	vertical-align: middle;
+	display: inline-block;
+}
+.f-qjd>ul>li:nth-child(1){
+	margin-left: 20px;
+	margin-top: 10px;	
+}
+.f-qjd>ul>li:nth-child(3){
+	margin-left: 260px;	
+}
+.f-qjd>ul>li:nth-child(4){
+	margin-left: 60px;	
+}
+.f-qjd>ul>li:nth-child(5){
+	margin-left: 115px;	
+}
+.f-qjd>ul>li:nth-child(6){
+	margin-left: 114px;	
+}
+.f-qjd .f-xf {
+	width: 90px;
+	height: 30px;
+	background-color: #ec6a17;
+	color: #fff;
+	border: 1px solid #ec6a17;
+	border-radius: 5px;
+	margin-left: 430px;
+	/*margin-top: 12px;*/
+}
+.f-qjd .f-ps {
+	width: 90px;
+	height: 30px;
+	background-color: #008de1;
+	color: #fff;
+	border: 1px solid #008de1;
+	border-radius: 5px;
+	margin-left: 32px;
+	margin-top: 22px;
+}
+.f-qjd .f-money div {
+	display: inline-block;
+	vertical-align: middle;
+}
+.f-qjd .f-money .f-yf {
+	margin-left: 42px;
+}
+.f-qjd .f-money .f-je {
+	margin-left: 130px;
+}
+.f-qjd .f-money .f-hj {
+	margin-left: 88px;
+}
+.f-qjd .f-money .f-num {
+	color: #ec6a17;
+}
+.f-fp {
+	width: 1104px;
+	font-size: 20px;
+	margin-left: 40px;
+	border-bottom: 1px solid #999;
+	padding-bottom: 20px;
+	margin-top: 40px;
+}
+.f-per {
+	margin-left: 40px;
+	margin-top: 22px;
+}
+.f-per span {
+	margin-right: 44px;
+}
+.f-tt {
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.f-tt input {
+	width: 370px;
+	height: 35px;
+	line-height: 35px;
+}
+.f-tt .f-xing {
+	color: red;
+}
+.f-bz {
+	width: 1104px;
+	font-size: 20px;
+	margin-left: 40px;
+	border-bottom: 1px solid #999;
+	padding-bottom: 22px;
+	margin-top: 42px;
+}
+.f-xx {
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.f-xx input {
+	width: 610px;
+	height: 34px;
+	line-height: 34px;
+	padding-left: 12px;
+}
+.f-fq {
+	width: 1104px;
+	margin-left: 40px;
+	border-bottom: 1px solid #999;
+	padding-bottom: 60px;
+	font-size: 16px;
+}
+.f-fq>span:nth-child(1){
+	margin-left: 970px;
+}
+.f-fq .f-jf{
+	margin-left: 680px;
+}
+.f-fq input {
+	width: 88px;
+	height: 34px;
+	margin-top: 20px;
+}
+.f-my {
+	color: #ec6a17;
+	font-size: 20px;
+}
+.f-dk {
+	color: #ec6a17;
+}
+.f-tj {
+	margin-left: 40px;
+	margin-top: 58px;
+	font-size: 16px;
+}
+.f-tj>span:nth-child(1){
+	margin-left: 940px;
+}
+.f-tj .f-wj {
+	display: inline-block;
+	margin-left: 885px;
+	margin-top: 32px;
+	margin-bottom: 60px;
+}
+.f-tj button {
+	width: 170px;
+	height: 44px;
+	border: 1px solid #ec6a17;
+	background-color: #ec6a17;
+	border-radius: 5px;
+	margin-bottom: 60px;
+	margin-left: 935px;
+	color: #fff;
+	font-size: 20px;
+}
+ .f-right {
+	width: 648px;
+	height: 432px;
+	border: 5px solid #d3d3d3;
+	margin-top: 22px;
+	margin-bottom: 42px;
+	background-color: #fff;
+	font-size: 18px;
+}
+ .f-right p {
+	height: 58px;
+	line-height: 58px;
+	padding-left: 22px;
+	color: #008de1;
+	border-bottom: 1px solid #d3d3d3;
+}
+ .f-right .f-sname {
+	margin:22px 0 0 22px;
+}
+ .f-right .f-sname>span:nth-child(1){
+	color: red;
+}
+ .f-right .f-sname input {
+	width: 330px;
+	height: 34px;
+}
+ .f-right .f-splace {
+	margin:22px 0 0 40px;
+}
+ .f-right .f-splace span img {
+	margin-left: 50px;
+}
+ .f-right .f-splace>span:nth-child(1){
+	color: red;
+}
+ .f-right .f-splace .f-span{
+	display: inline-block;
+	width: 138px;
+	height: 34px;
+	line-height: 34px;
+	border: 1px solid #d3d3d3;
+}
+ .f-right .f-sdp {
+	margin:22px 0 0 40px;
+}
+ .f-right .f-sdp input {
+	width: 458px;
+	height: 34px;
+}
+ .f-right .f-sdp>span:nth-child(1){
+	color: red;
+}
+ .f-right .f-sphone {
+	margin:22px 0 0 40px;
+}
+.f-right .f-sphone>span:nth-child(1){
+	color: red;
+}
+.f-right .f-sphone input:nth-child(3) {
+	width: 150px;
+	height: 34px;
+}
+.f-right .f-sphone>input:nth-child(5){
+	width: 48px;
+	height: 34px;
+}
+.f-right .f-sphone>input:nth-child(7){
+	display: inline-block;
+	width: 125px;
+	height: 34px;
+}
+.f-right .f-sc {
+	margin-top: 22px;
+	margin-left: 176px;
+}
+.f-right .f-btn button {
+	width: 90px;
+	height: 34px;
+	border: 1px solid #999;
+	color: #fff;
+	border-radius: 5px;
+	margin-left: 176px;
+	margin-top: 40px;
+	background-color: #999;
+}
+.f-right .f-btn>button:nth-child(2){
+	background-color: #ec6a17;
+	border: 1px solid #ec6a17;
+}
+.f-window {
+	width: 100%;
+	height: 100%;
+	background-color:rgba(153,153,153,0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+
+}
+.f-right{
+	position: absolute;
+}
+
+
+
+
+
+
+

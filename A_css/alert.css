@@ -1,0 +1,84 @@
+#alert{
+	position: fixed;
+	text-align: left;
+	width: 647px;
+	height: 389px;
+	left: 33%;
+	top:33%;
+	background-color: #fff;
+	z-index: 102;
+	display: none;
+	border: 5px solid #e2e2e2; 
+}
+#alert span{
+	color:#ec6a17;
+	font-size: 20px;
+}
+#alert label{
+	font-size: 20px;
+	margin-right: 20px;
+	
+}
+#alert p{
+	font-size: 20px;
+	color:#7db8eb;
+	width: 644px;
+	height: 40px;
+	border-bottom: 1px solid #e2e2e2;
+	margin-left: 30px;
+	
+}
+#alert #A-name{
+	width: 330px;
+	height: 35px;
+}
+#alert #A-add{
+	width: 457px;
+	height: 35px;
+}
+#alert #A-phone{
+	width: 150px;
+	height: 35px;
+}
+#alert #A-telephone1{
+	width: 48px;
+	height: 35px;
+}
+#alert #A-telephone2{
+	width: 120px;
+	height: 35px;
+}
+#alert label{
+/*float: left;*/
+margin-left: 37px;
+}
+#alert>input{
+	/*float: left;*/
+}
+#alert>b{
+	font-weight: normal;
+	font-size: 20px;
+}
+#A-address1,#A-address2,#A-address3{
+	height: 35px;
+}
+.back,.keep{
+	height: 35px;
+	width: 90px;
+	border-radius: 5px;
+	border: 0;
+	color: #fff;
+	font-size: 20px;
+	
+}
+.back{
+	background-color: #999999;
+	margin-left: 160px;
+	
+	
+}
+.keep{
+	background-color: #ec6a17;
+	margin-left: 145px;
+	
+}

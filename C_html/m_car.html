@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" type="text/css" href="../C_css/m_base.css">
+	<link rel="stylesheet" type="text/css" href="../C_css/m_base_car.css">
+	<link rel="stylesheet" type="text/css" href="../C_css/m_car.css">
+	<script type="text/javascript" src=""></script>
+	<script src="./jquery-3.2.1.js">
+	</script>
+	<script type="text/javascript" src="../C_js/m_big.js"></script>
+</head>
+<body>
+	<div class="m_wrap">
+		<div class="m_head m_headcar">
+			<div class="bar">
+				<div class="area">
+					<div class="bar_l">
+						<span>所在城市：</span><a href="#">北京<i class="icon icon1"></i></a>
+					</div>
+					<div class="bar_r">
+						<ul>
+							<li><span>您好，</span><span class="pid">17701269859</span><a href="#">退出</a></li>
+							<li><a href="#">我的订单</a></li>
+							<li><a href="#">我的消息</a></li>
+							<li><a href="#">我是商家</a></li>
+							<li><i class="icon icon2"></i><a href="#" class="tel">400-800-8820</a></li>
+						</ul>
+					</div>
+				</div>						
+			</div>	
+			<div class="area">				
+				<div class="cont3 cont">
+					<div class="m_car_t">
+						<div class="m_car_logo">
+							<img src="./images/logo.png">
+						</div>
+						<div class="m_car_jdbar">
+							<span class="m_carblock carselected">我的购物车</span>
+							<i class="icon icon20"></i>
+							<span class="m_carblock"><a href="../B_html/delivery.html">确认订单信息</a></span>
+							<i class="icon icon21"></i>
+							<span class="m_carblock"><a href="../A_html/Apaysuccess.html">订单提交成功</a></span>
+						</div>
+					</div>
+					<div class="m_car_m">
+						<i class="icon icon23"></i>
+						<span>购物车</span>
+					</div>
+					<div class="m_car_lists">
+						<div class="m_car_shop m_car_shop1">
+							<ul class="s5">
+								<li>
+									<div>
+										<span class="uradio radiochecked"><img src="./images/01.jpg"></span>
+									</div>
+									<div>海澜之家旗舰店</div>
+									<div>规格</div>
+									<div>单价</div>
+									<div>数量</div>
+									<div>金额</div>
+									<div>操作</div>
+								</li>
+
+								<li class="s1">
+									<div class="del">
+										<span class="uradio radiochecked"></span>
+									</div>
+									<div><img src="./images/02.jpg"><span>《寻龙诀》北京保利龙旗广场</span></div>
+									<div>
+										<p><span>版本：</span><span>32G</span></p>
+										<p><span>颜色：</span><span>星钻黑</span></p>
+									</div>
+									<div><span>￥38.0</span></div>
+									<div class="m_shop_num">
+										<span class="cutadd">-</span>
+										<span class="ushow">1</span>
+										<span class="cutadd">+</span>
+									</div>
+									<div><span>￥35.0</span></div>
+									<div class="delTe"><a href="#">删除</a></div>
+								</li>
+								<li>
+									<div>
+										<span class="uradio radiochecked"><img src="../C_images/btn.png"></span>
+									</div>
+									<div><img src="./images/02.jpg"><span>《寻龙诀》北京保利龙旗广场</span></div>
+									<div>
+										<p><span>版本：</span><span>32G</span></p>
+										<p><span>颜色：</span><span>星钻黑</span></p>
+									</div>
+									<div><span>￥35.0</span></div>
+									<div class="m_shop_num">
+										<span class="cutadd">-</span>
+										<span class="ushow">1</span>
+										<span class="cutadd">+</span>
+									</div>
+									<div><span>￥35.0</span></div>
+									<div><a href="#">删除</a></div>
+								</li>	
+								<li>
+									<div>
+										<span class="uradio radiochecked"><img src="../C_images/btn.png"></span>
+									</div>
+									<div><img src="./images/02.jpg"><span>《寻龙诀》北京保利龙旗广场</span></div>
+									<div>
+										<p><span>版本：</span><span>32G</span></p>
+										<p><span>颜色：</span><span>星钻黑</span></p>
+									</div>
+									<div><span>￥35.0</span></div>
+									<div class="m_shop_num">
+										<span class="cutadd">-</span>
+										<span class="ushow">1</span>
+										<span class="cutadd">+</span>
+									</div>
+									<div><span>￥35.0</span></div>
+									<div><a href="#">删除</a></div>
+								</li>									
+							</ul>
+							<div class="m_summoney">
+								<p>商品金额</p>
+								<p id="summoney">￥108.0</p>
+							</div>
+
+						</div>
+
+						<div class="m_car_shop m_car_shop2">
+							<ul>
+								<li>
+									<div>
+										<span class="uradio radiochecked"><img src="./images/01.jpg"></span>
+									</div>
+									<div>海澜之家旗舰店</div>
+									<div>规格</div>
+									<div>单价</div>
+									<div>数量</div>
+									<div>金额</div>
+									<div>操作</div>
+								</li>
+
+								<li>
+									<div>
+										<span class="uradio radiochecked"><!-- <img src="../C_images/btn.png"> --></span>
+									</div>
+									<div><img src="./images/02.jpg"><span>《寻龙诀》北京保利龙旗广场</span></div>
+									<div>
+										<p><span>版本：</span><span>32G</span></p>
+										<p><span>颜色：</span><span>星钻黑</span></p>
+									</div>
+									<div><span>￥</span><span id="texide">35.0</span></div>
+									<div class="m_shop_num">
+										<span class="cutadd">-</span>
+										<span class="ushow">1</span>
+										<span class="cutadd">+</span>
+									</div>
+									<div><span>￥35.0</span></div>
+									<div><a href="#">删除</a></div>
+								</li>
+								<li>
+									<div>
+										<span class="uradio radiochecked"><img src="../C_images/btn.png"></span>
+									</div>
+									<div><img src="./images/02.jpg"><span>《寻龙诀》北京保利龙旗广场</span></div>
+									<div>
+										<p><span>版本：</span><span>32G</span></p>
+										<p><span>颜色：</span><span>星钻黑</span></p>
+									</div>
+									<div><span>￥35.0</span></div>
+									<div class="m_shop_num">
+										<span class="cutadd">-</span>
+										<span class="ushow">1</span>
+										<span class="cutadd">+</span>
+									</div>
+									<div><span>￥35.0</span></div>
+									<div><a href="#">删除</a></div>
+								</li>	
+								<li>
+									<div>
+										<span class="uradio radiochecked"><img src="../C_images/btn.png"></span>
+									</div>
+									<div><img src="./images/02.jpg"><span>《寻龙诀》北京保利龙旗广场</span></div>
+									<div>
+										<p><span>版本：</span><span>32G</span></p>
+										<p><span>颜色：</span><span>星钻黑</span></p>
+									</div>
+									<div><span>￥35.0</span></div>
+									<div class="m_shop_num">
+										<span class="cutadd">-</span>
+										<span class="ushow">1</span>
+										<span class="cutadd">+</span>
+									</div>
+									<div><span>￥35.0</span></div>
+									<div><a href="#">删除</a></div>
+								</li>									
+							</ul>
+							<div class="m_summoney">
+								<p>商品金额</p>
+								<p>￥108.0</p>
+							</div>
+						</div>
+
+					</div>
+						
+					<div class="m_car_b">
+						<a href="#">全选</a><a href="#">批量删除</a>
+						<p>
+							<span>商品总计:</span><span>￥108.0</span>
+						</p>
+						<button class="m_ubtn"><a href="../B_html/delivery.html">去结算</a></button>
+					</div>
+
+
+
+				</div>
+
+
+
+
+			<!-- 尾部 -->
+
+				<div class="m_foot_b">
+					<ul>
+						<li>
+							<span>版权所有</span>
+							<span>©</span>
+							<span>2016易和生活港</span>
+						</li>
+						<li><span>保留所有权利</span></li>
+						<li><span>沪ICP备12042163</span></li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">易和生活</a>
+							<a href="#">纵享品质</a>
+						</li>
+					</ul>
+				</div>	
+									
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var btn = document.querySelectorAll('.m_shop_num>.cutadd');
+		console.log(btn);
+		var price = document.getElementById("texide").innerHTML
+		var pri = parseInt(price)
+		var summoney = document.getElementById('summoney');
+		var num = document.querySelectorAll('.ushow');
+		var sk = num[0].innerHTML
+		var sl = parseInt(sk)
+	 	var step = 1;
+	 	
+	 		
+	 		btn[0].onclick=function (){
+				step--
+					var addSum=pri*step
+					summoney.innerHTML=addSum
+					if(step <= 1){
+						step=1;
+						var addSum=pri*1
+					
+					summoney.innerHTML=addSum
+						
+				}
+					num[0].innerHTML=step;
+
+
+			}
+			btn[1].onclick=function(){
+				console.log(summoney)
+				step++
+				var addSum=pri*step
+				summoney.innerHTML=addSum
+				console.log(summoney.innerHTML)
+					if( step>1){
+						num[0].innerHTML=step;
+					
+				}
+				
+				
+			}
+
+
+	 	// var btn = document.querySelectorAll(".radiochecked>img")
+	 	var sp =document.querySelectorAll(".radiochecked") 
+	 	console.log(sp)
+	 	var pag = 1;
+		sp[1].onclick=function (){
+			pag++
+			if(pag%2 ==0){
+				sp[1].style.background="Url(./images/01.jpg) no-repeat center"
+			}else{
+				sp[1].style.background=""
+			}
+			
+		}
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
+</body>
+</html>

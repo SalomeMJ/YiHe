@@ -1,0 +1,340 @@
+.a-header{
+	width: 100%;
+	min-width: 1190px;
+	height: 165px;
+	
+}
+.a-headerTop{
+	background-color: #eeeeee;
+}
+.a-headerTopContent{
+	width: 1185px;
+	height: 35px;
+	margin: 0 auto;
+}
+.a-headLeft{
+	float: left;
+	line-height: 35px;
+
+}
+.a-headLeft>span:last-child{
+	background:  url(../B_images/下箭头.png) 0 0 no-repeat;
+	background-position: 30px 7px;
+	display: inline-block;
+	width: 50px;
+}
+
+.a-headRight{
+	float: right;
+	margin-top: 9px;
+}
+.a-headRight>li{
+	display: inline-block;
+	border-right:1px solid #999999; 
+	
+	
+	padding: 0 15px;
+}
+.a-headRight>li>a:hover,.a-headCentent-ul>li>a:hover,.a-my>a:hover,.a-buy>a:hover{
+color:#ff6c00;
+}
+.a-phone>a>img{
+	
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+.clear{
+	clear: both;
+}
+/*头部的中间部分*/
+.a-headContent{
+	width: 1185px;
+	margin: 0 auto;
+	height: 130px;
+}
+.B_sell{
+	background-color: #008de1;
+	color: #fff;
+
+}
+.a-sell{
+	display: inline-block;
+	padding: 6px 10px;
+}
+.B_sell{
+	background-color: #008de1;
+	color: #fff;
+}
+#a-headContentImg{
+	margin-top: 25px;
+}
+.a-headCenter{
+	display: inline-block;
+	margin-left: 200px;
+	/*overflow: auto;*/
+}
+.a-headCentent-ul>li{
+	display: inline-block;
+	padding: 7px 10px;
+}
+.a-headCentent-ul>li:first-child{
+	color:#333333;
+	font-weight: bold;
+
+}
+.a-search{
+	width: 450px;
+	height: 30px;
+	border:2px solid  #008de1;
+	text-indent: 8px;
+	
+}
+
+#a-headContentImg2{
+	    display: inline-block;
+		background-image: url(../B_images/tupianjingling.png);
+		background-repeat: no-repeat;
+		width: 45px;
+		height: 32px;
+		background-color: #008de1;
+		background-position: 12px -226px;
+		vertical-align: bottom;
+		margin-left: -50px
+		
+
+}
+.a-headFrame{
+	display: inline-block;
+}
+.a-my{
+    display: inline-block;
+	border: 1px solid #d3d3d3;
+	
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+  
+    position: relative;
+    top: -30px;
+    left: 40px;
+}
+
+.a-buy{
+	display: inline-block;
+	border: 1px solid #d3d3d3;
+	
+	width: 110px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	position: relative;
+    top: -30px;
+    left: 60px;
+}
+#a-icon{
+	background-image: url(../B_images/tupianjingling.png);
+		background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+		display: inline-block;
+		background-position: 0px -15px;
+		
+		margin-left: 8px;
+
+
+
+}
+#a-iconss{
+	background-image: url(../B_images/tupianjingling.png);
+		background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+		display: inline-block;
+		background-position: 1px -75px;		
+		margin-left: 8px;
+}
+.a-icons {
+	background-image: url(../B_images/tupianjingling.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-position: 0px -110px;
+	margin-left: 3px;
+	vertical-align: middle;
+
+}
+
+/*尾部*/
+#a-foot{
+	width: 100%;
+	min-width: 1190px;
+	margin-top: -610px;
+	/*background-color: #e2e2e2;*/
+	
+}
+#a-footTops{
+	width: 100%;
+	/*background-color: #e2e2e2;*/
+}
+#a-footTop{
+	width: 1185px;
+	margin: 0 auto;
+	height: 85px;
+	line-height: 85px;
+	/*background-color: pink;*/
+	font-size: 28px;
+}
+#a-footTop>li{
+	display: inline-block;
+	width: 245px;
+	float: left;
+	text-align: center;
+}
+#a-footTop>#a-im{
+	/*background-color: green;*/
+	width: 205px;
+}
+
+
+#a-footTop1,#a-footTop2,#a-footTop3,#a-footTop4,#a-footTop5{
+	background-image: url(../B_images/tupianjingling.png);
+		background-repeat: no-repeat;
+        width: 45px;
+        height: 45px;
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 20px;
+}
+#a-footTop1{
+	
+		background-position: -116px -250px;
+
+}
+#a-footTop2{
+	
+		background-position: -116px -175px;
+
+}
+#a-footTop3{
+	
+		background-position: -113px -330px;
+
+}
+#a-footTop4{
+	
+		background-position: -114px -94px;
+
+}
+#a-footTop5{
+	
+		background-position: -116px -23px;
+
+}
+#a-footContent{
+	width: 1185px;
+	margin: 50px auto;
+}
+#a-footContent>img{
+	position: relative;
+	top:-30px;
+}
+.a-ewms{
+	width: 430px;
+	height: 175px;
+	/*background-color: pink;*/
+	display: inline-block;
+	overflow: hidden;
+}
+.a-ewmw{
+	width: 145px;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	overflow: auto;
+
+	margin-right: 30px;
+	/*margin-top: 30px;*/
+}
+.a-ewmw>img{
+	width: 127px;
+border: 1px solid #d3d3d3;
+padding: 7px;
+		
+}
+.a-ewm,.a-sewm{
+	font-size: 20px;
+	color: #000;
+}
+.a-ewm>span{
+	background-image: url(../B_images/tupianjingling.png);
+		background-repeat: no-repeat;
+        width: 35px;
+        height: 35px;
+		display: inline-block;
+		background-position: -50px -260px;
+		vertical-align: middle;
+
+}
+.a-sewm>span{
+	background-image: url(../B_images/tupianjingling.png);
+		background-repeat: no-repeat;
+        width: 35px;
+        height: 35px;
+		display: inline-block;
+		background-position: -50px -219px;
+		vertical-align: middle;
+
+}
+#a-line{
+border-right: 1px solid #d3d3d3;
+height: 140px;
+margin-top: 27px;
+}
+.a-footContentUl{
+	display: inline-block;
+	vertical-align: top;
+}
+.a-ContentUl{
+	display: inline-block;
+
+}
+.a-ContentUl>li:first-child{
+	color: #000;
+	font-size: 19px;
+}
+.a-ContentUl>li>a:hover{
+	color: #008de1
+}
+.a-ContentUl>li{
+	padding: 10px 23px;
+}
+#a-footFootLine{
+	width: 100%;
+	border-top: 1px solid #d3d3d3;
+	height: 125px;
+}
+#a-footFoot{
+	text-align: center;
+}
+#a-footFoot>p:first-child{
+	margin-top: 40px;
+}
+#a-footFoot>p:last-child{
+	color:#008de1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

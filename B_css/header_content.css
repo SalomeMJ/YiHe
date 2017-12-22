@@ -1,0 +1,220 @@
+#Bnavs{
+    width: 100%;
+    min-width: 1190px;
+    height: 45px;
+    border-bottom:2px solid #008de1;
+}
+#Bnavwrap{
+    height: 45px;
+    width: 1185px;
+    margin: 30px auto;
+}
+#Bfirstnav {
+    /*background-color: #008de1;*/
+    color: #666;
+    position: relative;
+
+}
+#Bnavwrap #Bnav{
+    height: 45px;
+}
+#Bnavwrap #Bnav  li{
+    display: inline-block;
+    width: 126px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size:18px;
+
+}
+#Bnavwrap #Bnav  li:hover a{
+    color:#fff;
+}
+#Bnavwrap #Bnav  .Bnav{
+    background-color: #008de1;
+    color:#fff;
+}
+#Bfirstnav .Bulines{
+    color:#666;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+}
+#Bfirstnav:hover .Bulines{
+    transition: transform 1s;
+    transform:rotate(180deg);
+    color:#fff;
+}
+ #Bnav .BnavItem{
+     background-color: #008de1;
+     color:#fff;
+ }
+ #Bnav .Bulines{
+     color:#fff;
+ }
+#Bdown{
+    width: 174px;
+    height: 473px;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+    display: none;
+    position: absolute;
+    top: 45px;
+    z-index: 888;
+}
+#Bfirstnav:hover #Bdown{
+    display: block;
+}
+
+#Bdown li{
+    padding-left: 48px;
+    width: 174px;
+    height: 55px;
+    padding-top: 7px;
+    border-top:1px solid #6a6a6a;
+}
+#Bdown .BdownItem{
+    font-size: 16px;
+    text-align: left;
+    margin-left: -25px;
+}
+ #Bnav #Bfirstnav #Bdown li:hover{
+    background-color: #ec6a1f;
+}
+#Bdown .BdownItem .Bjiantou{
+    float: right;
+    margin-right: 20px;
+}
+#Bshow{
+    width: 402px;
+    height: 473px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    position: absolute;
+    top: 45px;
+    left: 174px;
+    z-index: 9999;
+    display: none;
+}
+.b2,.b3,.b4,.b5,.b6,.b7,.b8,.b9{
+    display: none;
+}
+#Bdown .BdownContent{
+    color:#fff;
+    width: 310px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: none;
+}
+#Bshow .BdownContent span{
+    display: inline-block;
+    height: 25px;
+    margin-left: 1px;
+    padding-right: 10px;
+    line-height: 25px;
+    font-size: 15px;
+    border-right:1px solid #d3d3d3;
+    /*background-color: red;*/
+}
+#Bshow .BdownContent .Bbotom{
+    display: table;
+    margin-top: -10px;
+    margin-left:50px;
+}
+#Bfirstnav:hover #Bshow{
+    display: block;
+}
+/*内容*/
+#Bcontent{
+    width: 100%;
+    min-width: 1190px;
+    background-color: #f2f2f2;
+}
+#Bcontent #Bwrap{
+    width: 1185px;
+    height: 470px;
+    margin: 0 auto;
+
+}
+#Bcontent #Bwrap .Bsearch{
+    display: inline-block;
+    height: 55px;
+    line-height: 55px;
+    font-size: 15px;
+    color:#666;
+}
+#Blocation{
+    font-size: 15px;
+    color:#ec6a17;
+}
+#Bpicture{
+    width: 1183px;
+    height: 375px;
+    border:1px solid #d3d3d3;
+    background-color: #fff;
+    text-align: center;
+}
+#Bpicture li{
+    display: inline-block;
+    width: 219px;
+    height: 332px;
+    border:1px solid #e1e1e1;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+#Bpicture li:hover{
+    border:1px solid #ff6c00;
+}
+#Bpicture .Bsel{
+    border:1px solid #ff6c00;
+}
+#Bpicture .Btext{
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+    margin-top: 15px;
+    width: 175px;
+    line-height: 25px;
+}
+.Bprice{
+    font-size: 18px;
+    color:#ea0000;
+    margin-left: -70px;
+    margin-top: 3px;
+
+}
+.Bdiscount{
+    font-size: 15px;
+    color:#7d7d7d;
+    text-decoration: line-through;
+}
+
+
+
+#a-foot{
+    width: 100%;
+    margin-top: 0;
+}
+#a-footTops{
+    width: 100%;
+    background-color: #e2e2e2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

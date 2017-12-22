@@ -1,0 +1,55 @@
+/*头部*/
+.a-headerTopContent .a-headRight li:nth-child(1) a{
+    color:#ff6c00;
+    font-size: 12px;
+}
+.a-buy {
+    border:1px solid red;
+    position: relative;
+}
+.a-buy  img{
+    position: absolute;
+    top: -15px;
+    right:10px;
+
+}
+/*内容*/
+#B_searchContent{
+    width: 100%;
+    min-width: 1190px;
+    height: 632px;
+    background-color: #f2f2f2;
+    text-align: center;
+    line-height: 632px;
+    /*border:1px solid red;*/
+    position: relative;
+}
+#B_searchContent img{
+    margin-top: 253px;
+    position: absolute;
+    top: 5px;
+    left:580px;
+}
+#B_searchContent span{
+    font-size: 18px;
+    color:#666;
+    position: absolute;
+    top:-25px;
+    left:729px;
+}
+#B_searchContent button{
+    width: 171px;
+    height: 50px;
+    background-color: #ec6a17;
+    color:#fff;
+    font-size: 18px;
+    border-radius:5px;
+    text-align: center;
+    line-height: 50px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    top:335px;
+    left: 729px;
+}

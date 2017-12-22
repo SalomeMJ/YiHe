@@ -1,0 +1,212 @@
+.submitCenter{
+	width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.submitCenterFrame{
+	width: 1100px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fff3ec;
+	border: 1px solid #d3d3d3;
+	text-align: left;
+	color: #666666;
+	font-weight: bold;
+	margin-top: 80px;
+}
+.submitCenterFrame>span:first-child{
+	background: url(../Dimages/tupianjingling.png) no-repeat;
+	width: 23px;
+	height: 23px;
+	vertical-align: middle;
+	background-position: -295px -25px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.submitCenterFrame2{
+	text-align: left;
+	font-size: 20px;
+	margin-top: 38px;
+}
+.submitCenterFrame2>span:nth-child(2){
+	font-size: 23px;
+	color: #ff6c00;
+}
+.submitCenterFrame2>span:nth-child(4){
+	font-size: 15px;
+	float: right;
+}
+.submitCenterFrame2>span:nth-child(6){
+	margin: 43px 0 22px;
+	display: inline-block;
+}
+.submitCenter>img{
+	margin-top: 80px;
+}
+.submitCenter>p,.submitCenter>h6{
+	margin-top: 55px;
+	font-size: 25px;
+	display: inline-block;
+}
+.submitCenter>h6{
+	color: #ff6c00;
+	font-weight: normal;
+}
+.payStages{
+	text-align: left;
+	border-top: 1px solid #e8e8e8;
+}
+.payStages>input{
+	margin-left: 37px;
+}
+.payStages>img,.payStages>input{
+	/*margin-bottom: 40px;*/
+	vertical-align: middle;
+	
+}
+.payStagesFrame{
+	width: 1100px;
+	height: 395px;
+   margin: 40px 0;
+	color:#595959;
+	font-size: 20px;
+	border:1px solid #e8e8e8;
+	
+}
+.payStagesFrameLeft{
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	margin-top: 61px;
+	/*margin-left: 210px;*/
+}
+.payStagesFrameLeft>img{
+	margin-top: 37px;
+}
+.payStagesFrameLeft>button{
+	height: 45px;
+	width: 170px;
+	background-color: #ec6a17;
+	border: 0;
+	color: #fff;
+	margin-top: 40px;
+}
+.payStagesFrameRight{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 61px;
+	
+}
+.payStagesFrameRight>img{
+	margin-top: 40px;
+}
+.payStagesFrameCenter{
+	width: 305px;
+	height: 436px;
+	line-height: 436px;
+	display: inline-block;
+}
+.payStagesFrame2{
+	width: 1100px;
+	height: 400px;
+	/*background-color: pink;*/
+	margin: 0 auto;
+	border: 1px solid #d3d3d3;
+}
+.payStagesFrame2>div{
+	display: inline-block;
+	width: 515px;
+	margin-top: 60px;
+	text-align: center;
+}
+.payStagesFrame2>div:first-child{
+	border-right: 1px solid #eeeeee;
+}
+.payStagesFrame2>div>p{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+#overlay {
+    background: #000;
+    filter: alpha(opacity=50); /* IE的透明度 */
+    opacity: 0.5;  /* 透明度 */
+    /*display: none;*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 3499px;
+    z-index: 100; /* 此处的图层要大于页面 */
+    /*display:none;*/*/
+}
+.M-mian{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0px;
+	left:0px;
+}
+.M-ban{
+	width: 648px;
+	height: 430px;
+	position: absolute;
+	border: 4px solid #e2e2e2;
+	background: #eee;
+	z-index: 200px;
+}
+.M-ban .M-Color{
+	font-size: 30px;
+	color: #ec6a17;
+	text-align: center;
+	margin-top: 100px;
+}
+.M-ban .M-xin{
+	font-size: 18px;
+	color: #666;
+	text-align: center;
+	margin-top: 60px;
+}
+.M-ban .M-btn{
+	margin-top: 70px;
+	/*border: 1px solid red;*/
+}
+.M-btn .B-btn1{
+	width: 170px;
+	height: 72px;
+	background-color: #ec6a17;
+	color: #fff;
+	border-radius: 4px;
+	border-style: none;
+	margin-left: 124px;
+
+}
+.B-btn1 .one{
+	font-size: 18px;
+}
+.B-btn1 .two{
+	font-size: 14px;
+	margin-top: 5px;
+}
+.M-btn .B-btn2{
+	width: 170px;
+	height: 72px;
+	background-color: #999;
+	color: #fff;
+	border-radius: 4px;
+	border-style: none;
+	margin-left: 60px;
+	
+}
+.B-btn2 .one{
+	font-size: 18px;
+}
+.B-btn2 .two{
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+
+
+

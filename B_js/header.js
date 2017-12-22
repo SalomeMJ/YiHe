@@ -1,0 +1,115 @@
+//头部商家商品选择
+$('.a-sell').mouseover(function(){
+    $(this).addClass('B_sell').siblings().removeClass('B_sell');
+});
+//导航
+$('#Bnav>.Bnavs').each(function(i){
+   $('#Bnav>.Bnavs')[i].onmouseover=function(){
+      $(this).addClass('BnavItem').siblings().removeClass('BnavItem');
+   };
+
+});
+//行业分类下拉列表
+$('.B1').mouseover(function(){
+    $('.b1').css('display','block');
+    $('.b2').css('display','none');
+    $('.b3').css('display','none');
+    $('.b4').css('display','none');
+    $('.b5').css('display','none');
+    $('.b6').css('display','none');
+    $('.b7').css('display','none');
+    $('.b8').css('display','none');
+    $('.b9').css('display','none');
+});
+$('.B2').mouseover(function(){
+    $('.b2').css('display','block');
+    $('.b1').css('display','none');
+    $('.b3').css('display','none');
+    $('.b4').css('display','none');
+    $('.b5').css('display','none');
+    $('.b6').css('display','none');
+    $('.b7').css('display','none');
+    $('.b8').css('display','none');
+    $('.b9').css('display','none');
+});
+$('.B3').mouseover(function(){
+    $('.b3').css('display','block');
+    $('.b1').css('display','none');
+    $('.b2').css('display','none');
+    $('.b4').css('display','none');
+    $('.b5').css('display','none');
+    $('.b6').css('display','none');
+    $('.b7').css('display','none');
+    $('.b8').css('display','none');
+    $('.b9').css('display','none');
+});
+$('.B4').mouseover(function(){
+    $('.b4').css('display','block');
+    $('.b1').css('display','none');
+    $('.b3').css('display','none');
+    $('.b2').css('display','none');
+    $('.b5').css('display','none');
+    $('.b6').css('display','none');
+    $('.b7').css('display','none');
+    $('.b8').css('display','none');
+    $('.b9').css('display','none');
+});
+$('.B5').mouseover(function(){
+    $('.b5').css('display','block');
+    $('.b1').css('display','none');
+    $('.b3').css('display','none');
+    $('.b4').css('display','none');
+    $('.b2').css('display','none');
+    $('.b6').css('display','none');
+    $('.b7').css('display','none');
+    $('.b8').css('display','none');
+    $('.b9').css('display','none');
+});
+$('.B6').mouseover(function(){
+    $('.b6').css('display','block');
+    $('.b1').css('display','none');
+    $('.b3').css('display','none');
+    $('.b4').css('display','none');
+    $('.b5').css('display','none');
+    $('.b2').css('display','none');
+    $('.b7').css('display','none');
+    $('.b8').css('display','none');
+    $('.b9').css('display','none');
+});
+$('.B7').mouseover(function(){
+    $('.b7').css('display','block');
+    $('.b1').css('display','none');
+    $('.b3').css('display','none');
+    $('.b4').css('display','none');
+    $('.b5').css('display','none');
+    $('.b6').css('display','none');
+    $('.b2').css('display','none');
+    $('.b8').css('display','none');
+    $('.b9').css('display','none');
+});
+$('.B8').mouseover(function(){
+    $('.b8').css('display','block');
+    $('.b1').css('display','none');
+    $('.b3').css('display','none');
+    $('.b4').css('display','none');
+    $('.b5').css('display','none');
+    $('.b6').css('display','none');
+    $('.b7').css('display','none');
+    $('.b82').css('display','none');
+    $('.b9').css('display','none');
+});
+$('.B9').mouseover(function(){
+    $('.b9').css('display','block');
+    $('.b1').css('display','none');
+    $('.b3').css('display','none');
+    $('.b4').css('display','none');
+    $('.b5').css('display','none');
+    $('.b6').css('display','none');
+    $('.b7').css('display','none');
+    $('.b8').css('display','none');
+    $('.b2').css('display','none');
+});
+//内容li
+$('#Bpicture>li').mouseover(function(){
+   $(this).addClass('Bsel').siblings().removeClass('Bsel');
+});

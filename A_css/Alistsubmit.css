@@ -1,0 +1,136 @@
+.submitCenter{
+	width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+}
+.submitCenter{
+	
+}
+.submitCenterFrame{
+	width: 1100px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fff3ec;
+	border: 1px solid #d3d3d3;
+	text-align: left;
+	color: #666666;
+	font-weight: bold;
+	margin-top: 80px;
+}
+.submitCenterFrame>span:first-child{
+	background: url(../A_images/tupianjingling.png) no-repeat;
+	width: 23px;
+	height: 23px;
+	vertical-align: middle;
+	background-position: -295px -25px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.submitCenterFrame2{
+	text-align: left;
+	font-size: 20px;
+	margin-top: 38px;
+}
+.submitCenterFrame2>span:nth-child(2){
+	font-size: 23px;
+	color: #ff6c00;
+}
+.submitCenterFrame2>span:nth-child(4){
+	font-size: 15px;
+	float: right;
+}
+.submitCenterFrame2>span:nth-child(6){
+	margin: 43px 0 22px;
+	display: inline-block;
+}
+.submitCenter>img{
+	margin-top: 80px;
+}
+.submitCenter>p,.submitCenter>h6{
+	margin-top: 55px;
+	font-size: 25px;
+	display: inline-block;
+}
+.submitCenter>h6{
+	color: #ff6c00;
+	font-weight: normal;
+}
+.payStages{
+	text-align: left;
+	border-top: 1px solid #e8e8e8;
+}
+.payStages>input{
+	margin-left: 37px;
+}
+.payStages>img,.payStages>input{
+	/*margin-bottom: 40px;*/
+	vertical-align: middle;
+	
+}
+.payStagesFrame{
+	width: 1100px;
+	height: 395px;
+   margin: 40px 0;
+	color:#595959;
+	font-size: 20px;
+	border:1px solid #e8e8e8;
+	
+}
+.payStagesFrameLeft{
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	margin-top: 61px;
+	/*margin-left: 210px;*/
+}
+.payStagesFrameLeft>img{
+	margin-top: 37px;
+}
+.payStagesFrameLeft>button{
+	height: 45px;
+	width: 170px;
+	background-color: #ec6a17;
+	border: 0;
+	color: #fff;
+	margin-top: 40px;
+}
+.payStagesFrameLeft>button a{
+	color: #fff;
+}
+.payStagesFrameRight{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 61px;
+	
+}
+.payStagesFrameRight>img{
+	margin-top: 40px;
+}
+.payStagesFrameCenter{
+	width: 305px;
+	height: 436px;
+	line-height: 436px;
+	display: inline-block;
+}
+.payStagesFrame2{
+	width: 1100px;
+	height: 400px;
+	/*background-color: pink;*/
+	margin: 0 auto;
+	border: 1px solid #d3d3d3;
+}
+.payStagesFrame2>div{
+	display: inline-block;
+	width: 515px;
+	margin-top: 60px;
+	text-align: center;
+}
+.payStagesFrame2>div:first-child{
+	border-right: 1px solid #eeeeee;
+}
+.payStagesFrame2>div>p{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+

@@ -1,0 +1,534 @@
+@charset 'utf-8';
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #666;
+}
+a:hover {
+	color:#ff6c00;
+}
+ul li {
+	list-style: none;
+}
+.wrapper {
+	width: 100%;
+	min-width: 1190px;
+	height: 100%;
+	background-color: #f2f2f2;
+}
+.f-header {
+	width: 100%;
+	min-width: 1190px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #666;
+	background-color: #d3d3d3;
+}
+
+.area {
+	width: 1180px;
+	margin: 0 auto;
+	/*background-color: blue;*/
+	overflow: hidden;
+}
+.area .city {
+	float: left;
+}
+.area .format  {
+	float: right;
+
+}
+.area .num {
+	color: #ff6c00;
+	margin-right: 22px;
+}
+.area .xian {
+	border-right: 1px solid #999;
+	height: 14px;
+	padding:0 9px;
+}
+.area img {
+	vertical-align: middle;
+}
+.type-area {
+	width: 100%;
+	min-width: 1190px;
+
+	/*background-color: pink;*/
+}
+.s-header {
+	width: 1180px;
+	height: 176px;
+	margin: 0 auto;
+	/*overflow: hidden;*/
+	position: relative;
+}
+.s-header .logo {
+	width: 142px;
+	height: 82px;
+	/*float: left;*/
+	margin-top: 26px;
+}
+.s-header .search {
+	position: relative;
+	margin-left: 360px;
+	margin-top: -90px;
+	/*background-color: blue;*/
+}
+.s-header .search span {
+	font-size: 16px;
+}
+.s-header .search .sell:hover{
+	background-color: #008de1;
+	color: #fff;
+	cursor: pointer;
+}
+.s-header .search .sell{
+	display: inline-block;
+	padding: 6px 10px;
+}
+.s-header .search .sell:first-child{
+	background-color: #008de1;
+	color: #fff;
+}
+.s-header .search input {
+	width: 452px;
+	height: 32px;
+	border: 2px solid #008de1;
+	font-size: 14px;
+	color: #999;
+}
+.s-header .search img {
+	width: 20px;
+	height: 21px;
+	padding-top: 8px;
+	padding-left: 14px;
+}
+.s-header .search .simg {
+	display: block;
+	width: 48px;
+	height: 36px;
+	background-color: #008de1;
+	position: absolute;
+	top: 36px;
+	left: 456px;
+}
+.s-header .person {
+	width: 121px;
+	height: 36px;
+	border: 1px solid #999;
+	position: absolute;
+	left: 910px;
+	top: 58px;
+
+
+}
+.s-header .person>img:first-child {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+.s-header .person>img:last-child {
+	position: absolute;
+	top: 8px;
+	right: 0;
+}
+.s-header .person span {
+	position: absolute;
+	top: 10px;
+	left: 30px;
+}
+.s-header .car {
+	width: 115px;
+	height: 36px;
+	border: 1px solid #999;
+	position: absolute;
+	right: 0;
+	top: 58px; 
+}
+.s-header .car>img:first-child {
+	position: absolute;
+	top: 8px;
+	left: 5px;
+}
+.s-header .car>img:last-child {
+	position: absolute;
+	top: 8px;
+	right: 0;
+}
+.s-header .car span {
+	position: absolute;
+	top: 10px;
+	left: 34px;
+}
+.s-header p {
+	margin-left: 360px;
+	/*margin-top: 10px;*/
+}
+.s-header p .hot {
+	font-weight: bolder;
+}
+.s-header p span {
+	margin-right: 11px;
+	font-size: 14px;
+}
+
+
+.nav .f-items {
+	margin-top: 17px;
+	display: inline-block;
+	width: 176px;
+	font-size: 20px;
+	color:#fff;
+	text-align: center;
+	background-color: #008de1;
+	height: 45px;
+	line-height: 45px;
+	position: relative;
+}
+.nav .f-items span {
+	display: inline-block;
+}
+.nav .f-items #f-jiantou {
+	background: url(../Fimages/tupianjingling.png) 0 0 no-repeat;
+	background-position: 0px -183px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-left: 18px;
+	transition: transform 0.5s;
+}
+.nav .f-items:hover #f-jiantou {
+	transform: rotate(-180deg);
+}
+.nav .f-items .f-xiala {
+	padding-left: 10px;
+	color: #fff;
+	font-size: 16px;
+	text-align: left;
+	background-color: #2F4F4F;
+	border-bottom: 1px  solid gray;
+}
+
+#f-mengban{
+	height: 415px;
+	background-color: #000000;
+	opacity: 0.7;
+	display: inline-block;
+	width: 350px;
+	position: relative;
+	top: -415px;
+	left: 176px;
+
+}
+.f-items1Content{
+	display: inline-block;
+	width: 350px;
+	position: relative;
+	top: 45px;
+	left: 176px;
+	position: absolute;
+}
+.f-items1Content>ul>li>a{
+	color:#fff;
+	font-size: 14px;
+}
+.f-items1Content>ul{
+	margin-top: 10px;
+}
+.f-items1Content>ul>li{
+	display: inline-block;
+	padding: 2px 10px 7px; 
+	height: 25px;
+	line-height: 25px;
+	float: left;
+	border-right: 1px solid #FFFFFF;
+}
+.f-items1Content>ul>li>a:hover{
+	color:#f60;	
+}
+.zindex{
+	z-index: 1000;
+}
+#f-navContent{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 25px;
+
+}
+#f-navContent>li{
+	display: inline-block;
+	padding: 0px 40px;
+	font-size: 15px;
+
+}
+#f-navContent>li>a:hover,#f-navRight>a:hover{
+	color: #ff6c00;
+}
+#f-navContent>li>a,#f-navRight>a{
+	color: #333333;
+	font-size: 18px;
+}
+#f-navRight{
+	float: right;
+	font-size: 15px;
+	text-align: right;
+	margin-top: 25px;
+	position: relative;
+	z-index: 1000;
+}
+#f-navFrame{
+	background-color: #FFFFFF;
+	width: 176px;
+	text-align: center;
+	height:300px;
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	top: 32px;
+	right: 0;
+}
+#f-navRight:hover #f-navFrame{
+	display: block;
+}
+.service>div{
+	width: 20px;
+	height: 20px;
+	background: url(../Fimages/tupianjingling.png) no-repeat;
+	background-position: -58px 0px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+
+}
+.service{
+	width: 160px;
+	background-color: #f60;
+	text-align: center;
+	border-radius: 10px;
+	height: 30px;
+	line-height: 30px;  
+	margin-top: 10px;
+	color:#FFFFFF;
+	margin-left: 8px;
+}
+.service>img{
+	width: 160px;
+}
+
+
+
+
+/*内容部分*/
+.f-content {
+	width: 100%;
+	min-width: 1190px;
+	border-top: 2px solid #008de1;
+}
+.f-area{
+	width: 1185px;
+	margin: 0 auto;
+
+}
+.f-content .f-left {
+	float: left;
+	width: 175px;
+	height: 548px;
+	border: 1px solid #d3d3d3;
+	margin-top: 22px;
+	margin-bottom: 42px;
+	background-color: #fff;
+}
+.f-content .f-left p {
+	height: 58px;
+	line-height: 58px;
+	text-align: center;
+	font-size: 18px;
+	border-bottom: 1px solid #d3d3d3;
+}
+.f-content .f-left p img {
+	vertical-align: middle;
+}
+.f-content .f-left ul{
+	margin-left: 22px;
+}
+.f-content .f-left ul li{
+	margin-top: 14px;
+}
+.f-content .f-left>ul>li:nth-child(1){
+	font-size: 18px;
+	font-weight: bold;
+	color: #666;
+
+}
+.f-content .f-left ul li:hover{
+	text-decoration: underline;
+	color: #ec6a17;
+	cursor: pointer;
+}
+.f-content .f-left>ul>li:nth-child(1){
+	text-decoration: none;
+	color: #666;
+}
+
+
+/*尾部*/
+#f-foot{
+	width: 100%;
+	/*background-color: #e2e2e2;*/
+
+}
+#f-footTops{
+	width: 100%;
+	background-color: #e2e2e2;
+}
+#f-footTop{
+	width: 1185px;
+	margin: 0 auto;
+	height: 85px;
+	line-height: 85px;
+	/*background-color: pink;*/
+	font-size: 28px;
+}
+#f-footTop>li{
+	display: inline-block;
+	width: 245px;
+	float: left;
+	text-align: center;
+}
+#f-footTop>#a-im{
+	/*background-color: green;*/
+	width: 205px;
+}
+
+
+#f-footTop1,#f-footTop2,#f-footTop3,#f-footTop4,#f-footTop5{
+	background-image: url(../Fimages/tupianjingling.png);
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+#f-footTop1{
+
+	background-position: -116px -250px;
+
+}
+#f-footTop2{
+
+	background-position: -116px -175px;
+
+}
+#f-footTop3{
+
+	background-position: -113px -330px;
+
+}
+#f-footTop4{
+
+	background-position: -114px -94px;
+
+}
+#f-footTop5{
+
+	background-position: -116px -23px;
+
+}
+#f-footContent{
+	width: 1185px;
+	margin: 50px auto;
+}
+#f-footContent>img{
+	position: relative;
+	top:-30px;
+}
+.f-ewms{
+	width: 430px;
+	height: 175px;
+	/*background-color: pink;*/
+	display: inline-block;
+	overflow: hidden;
+}
+.f-ewmw{
+	width: 145px;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	overflow: auto;
+
+	margin-right: 30px;
+	/*margin-top: 30px;*/
+}
+.f-ewmw>img{
+	width: 127px;
+	border: 1px solid #d3d3d3;
+	padding: 7px;
+
+}
+.f-ewm,.f-sewm{
+	font-size: 20px;
+	color: #000;
+}
+.f-ewm>span{
+	background-image: url(../Fimages/tupianjingling.png);
+	background-repeat: no-repeat;
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	background-position: -50px -260px;
+	vertical-align: middle;
+
+}
+.f-sewm>span{
+	background-image: url(../Fimages/tupianjingling.png);
+	background-repeat: no-repeat;
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	background-position: -50px -219px;
+	vertical-align: middle;
+
+}
+#f-line{
+	border-right: 1px solid #d3d3d3;
+	height: 140px;
+	margin-top: 27px;
+}
+.f-footContentUl{
+	display: inline-block;
+	vertical-align: top;
+}
+.f-ContentUl{
+	display: inline-block;
+
+}
+.f-ContentUl>li:first-child{
+	color: #000;
+	font-size: 18px;
+}
+.f-ContentUl>li>a:hover{
+	color: #008de1
+}
+.f-ContentUl>li{
+	padding: 10px 23px;
+}
+#f-footFootLine{
+	width: 100%;
+	border-top: 1px solid #d3d3d3;
+	height: 125px;
+}
+#f-footFoot{
+	text-align: center;
+}
+#f-footFoot>p:first-child{
+	margin-top: 40px;
+}
+#f-footFoot>p:last-child{
+	color:#008de1;
+}

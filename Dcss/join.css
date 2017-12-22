@@ -1,0 +1,171 @@
+.a-Content{
+	width: 100%;
+	min-width: 1190px;
+	height: 46px;
+
+	border-bottom:2px solid #008de1;
+}
+.a-Content-head{
+	width: 1185px;
+	margin: 0 auto;
+	
+}
+.a-Content-Ul>li{
+	display: inline-block;
+	padding: 10px 35px;
+	font-size: 16px;
+}
+.a-Content-Ul>li>a:hover{
+	color: #ec6a17;
+}
+.a-Content-Ul>li:first-child{
+	margin-left: 30px;
+}
+
+.a-Content-one{
+	display: inline-block;
+	float: left;
+	width: 175px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	background-color: #008de1;
+	color: #fff;
+	font-size: 16px;
+
+}
+.C-tonment{
+	width: 100%;
+	min-width: 1190px;
+}
+.C-cont{
+	width: 1182px;
+	height: 212px;
+	margin: 0 auto;
+	
+	padding-top: 80px;
+	padding-bottom: 68px;
+
+}
+.c-banner{
+	background: url(../Dimages/2.png);
+	width: 100%;
+	height: 362px;
+	
+
+}
+.C-cont .C-ku{
+	font-size: 30px;
+	color: #666;
+	margin-top: 10px;
+}
+.C-cont .C-ku .C-color{
+	color: #ec6a17;
+}
+.C-content-cont{
+	height: 596px;
+	background-color: #f2f2f2;
+}
+.C-content-cont .C-yong{
+	width: 1185px;
+	height: 596px;
+	margin: 0 auto;
+	
+}
+.C-yong .C-left{
+	width: 570px;
+	height: 406px;
+	border-right: 1px solid #d3d3d3;
+	
+	float: left;
+	margin-top: 95px;
+	margin-left: 30px;
+
+}
+.C-yong .C-left .Y-yuan{
+	width: 404px;
+	height: 404px;
+	
+	text-align: center;
+	border: 1px solid #ec6a17;
+	border-radius: 215px;
+	background-color: #fff;
+}
+.C-yong .C-left .Y-yuan .Y-hu{
+	color: #ec6a17;
+	font-size: 30px;
+	margin-top: 75px;
+	
+}
+.C-yong .C-left .Y-yuan .Y-yi{
+	color: #666;
+	font-size: 20px;
+	margin-top:18px;
+	
+}
+.C-yong .C-left .Y-yuan .Y-qi{
+	color: #999;
+	font-size: 18px;
+	margin-top: 18px;
+}
+.C-yong .C-left .Y-yuan .Y-btn{
+	width: 172px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	background-color: #ec6a17;
+	color: #fff;
+	font-size: 18px;
+	font-weight: lighter;
+	border-style: none;
+	margin-top: 25px;
+	border-radius: 4px;
+}
+.C-yong .C-right{
+	width: 570px;
+	height: 406px;
+	float: right;
+	
+	margin-top: 95px;
+	
+}
+.C-yong .C-right .Y-yuan{
+	width: 404px;
+	height: 404px;
+	
+	text-align: center;
+	border: 1px solid #008de1;
+	border-radius: 215px;
+	background-color: #fff;
+	margin-left: 160px;
+}
+.C-yong .C-right .Y-yuan .Y-hu{
+	color: #008de1;
+	font-size: 30px;
+	margin-top: 75px;
+	
+}
+.C-yong .C-right .Y-yuan .Y-yi{
+	color: #666;
+	font-size: 20px;
+	margin-top:18px;
+	
+}
+.C-yong .C-right .Y-yuan .Y-qi{
+	color: #999;
+	font-size: 18px;
+	margin-top: 18px;
+}
+.C-yong .C-right .Y-yuan .Y-btn{
+	width: 172px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	background-color: #008de1;
+	color: #fff;
+	font-size: 18px;
+	font-weight: lighter;
+	border-style: none;
+	margin-top: 25px;
+	border-radius: 4px;
+}

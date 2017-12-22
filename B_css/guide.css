@@ -1,0 +1,266 @@
+html,body,ul,li{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a {
+    color:#fff;
+    text-decoration: none;
+
+}
+#B_wrap{
+    width: 100%;
+    min-width: 1190px;
+    background-color: #eee;
+}
+#B_top{
+    width:1186px;
+    height: 35px;
+    margin: 0 auto;
+    line-height: 35px;
+    font-size: 12px;
+    color:#666;
+}
+#B_top ul{
+    display: inline-block;
+    float: right;
+}
+#B_top ul>li {
+    display: inline-block;
+    margin-right: 20px;
+}
+#B_top #B_merchant span{
+    border-right:1px solid #666;
+    font-size: 12px;
+    padding-right: 15px;
+}
+#B_top #B_phone img{
+    vertical-align: middle;
+}
+#B_top #B_phone span{
+    margin-left: -4px;
+}
+#B_banner{
+    width: 1186px;
+    margin: 0 auto;
+    min-width: 1190px;
+}
+#B_banner #B_baWrap{
+    width: 100%;
+    min-width: 1190px;
+    margin: 0 auto;
+    height: 130px;
+    line-height: 130px;
+}
+#B_banner #B_baWrap img{
+    vertical-align: middle;
+}
+#B_banner #B_nav{
+    display: inline-block;
+    float: right;
+    color: #666;
+    font-size:20px;
+}
+#B_nav span{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#B_login{
+    border-right:2px solid #959595;
+}
+#B_content {
+    width: 100%;
+    min-width: 1190px;
+    height: 710px;
+    background: url("../B_images/background.png") no-repeat;
+    border-bottom: 1px solid #d3d3d3;
+}
+#B_content #B_Contentwrap{
+    width: 740px;
+    margin: 0 auto;
+}
+#B_enjoy{
+    padding-top: 158px;
+    padding-left: 145px;
+    font-size: 50px;
+    color:#fff;
+}
+#B_selectCity{
+    margin-top: 95px;
+    position: relative;
+}
+#B_selectCity #B_citys {
+    width: 513px;
+    height: 58px;
+    text-indent: 20px;
+    line-height: 58px;
+    font-size: 20px;
+    color: #666;
+    outline: none;
+}
+
+#B_selectCity span{
+    font-size: 30px;
+    color: #333333;
+    width: 125px;
+    text-align: center;
+    border-left: 1px solid #dcdcdc;
+    position: absolute;
+    top: 18px;
+    left: 390px;
+}
+#B_selectCity #B_comein{
+    vertical-align: top;
+    margin-left: 37px;
+    width: 170px;
+    height: 62px;
+    line-height:62px;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    background-color: #ec6a17;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+
+}
+#B_hotcitys{
+    width: 100%;
+    display: none;
+}
+#B_hotcitys #B_hotWrap{
+    width: 735px;
+    margin: 19px auto;
+    height: 303px;
+    background-color: #fff;
+    border:1px solid #d3d3d3;
+    position: relative;
+}
+#B_scroll{
+    width: 735px;
+    height: 303px;
+    margin:auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+#B_hotWrap img{
+    height: 15px;
+    position: absolute;
+    top: -14px;
+    left:445px;
+}
+#B_hotWrap ul{
+    width: 677px;
+    margin: 20px auto;
+}
+#B_hotWrap ul li{
+    height: 50px;
+    line-height: 50px;
+    border-bottom:1px dashed #ddd;
+}
+#B_hotWrap ul #B_hotb{
+    border-bottom:1px solid #ddd;
+}
+#B_hotb .B_beijing{
+    margin-left: 20px;
+    width: 77px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 16px;
+    border:1px solid #ec6a17;
+    text-align: center;
+}
+ #B_hotb span{
+    font-size: 20px;
+    color:#666;
+    letter-spacing: 3px;
+}
+#B_hotb .B_beijing span{
+    color: #ec6a17;
+}
+#B_hotWrap ul li .B_city{
+    display: inline-block;
+    margin-left: 30px;
+}
+#B_hotWrap ul li .B_grown{
+    display: inline-block;
+    width: 40px;
+    height: 23px;
+    line-height: 23px;
+    font-size: 16px;
+    color:#898989;
+    text-align: center;
+    background-color: #eee;
+}
+#B_hotWrap ul li .B_citys span {
+    margin-right: 30px;
+    font-size: 16px;
+    color: #434343;
+
+}
+#B_hotWrap ul li .B_citys .B_cityItem{
+    color:#ec6a17;
+    cursor: pointer;
+}
+
+
+
+#B_bottom{
+    width: 100%;
+    height: 123px;
+}
+#B_bottomWrap{
+    width: 420px;
+    margin: 0 auto;
+    font-size: 14px;
+    color:#939393;
+}
+#B_copyright{
+    margin-top: 37px;
+}
+#B_copyright #B_hu{
+    border-left:1px solid #939393;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+#B_title li{
+    display: inline-block;
+    margin-top: 20px;
+    color:#008de1;
+    padding-left: 150px;
+}
+#B_title li span{
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

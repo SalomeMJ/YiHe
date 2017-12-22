@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>易和券详情</title>
+	<link rel="stylesheet" type="text/css" href="../FCSS/reset.css">
+	<link rel="stylesheet" type="text/css" href="../FCSS/Fcommon.css">
+	<link rel="stylesheet" type="text/css" href="../FCSS/yhqdetail.css">
+	<script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="../FJS/Fcommon.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<!-- 头部 -->
+		<div class="f-header">
+			<div class="area">
+				<div class="city">
+					<span>所在城市：</span>
+				</div>
+				
+				<div class="format">
+					<span>您好，</span>
+					<span class="num"><a href="">请登录</a></span>
+					<span class="xian"><a href="">退出</a></span>
+					<span class="xian"><a href="">我的订单</a></span>
+					<span class="xian"><a href="">我的消息</a></span>
+					<span class="xian"><a href="">我是商家</a></span>
+					<span><img src="../Fimages/6_03.png"><a href="">400-800-8820</a></span>
+				</div>
+			</div>
+
+		</div>
+		
+		<div class="type-area">
+			<div class="s-header">
+				<img src="../Fimages/1_03.png" class="logo">
+				<div class="search">
+					<span class="sell">商家</span>
+					<span class="sell">商品</span><br>	
+					<input type="text" class="" placeholder="请输入商家名称或关键字进行筛选">
+					<span class="simg"><img src="../Fimages/17_03.png"></span>
+				</div>
+				<div class="person">
+					<img src="../Fimages/2_06.png">
+					<span><a href="">我的易和</a></span>
+					<img src="../Fimages/3_06.png">
+				</div>
+				<div class="car">
+					<img src="../Fimages/4_06.png">
+					<span><a href="">购物车</a></span>
+					<img src="../Fimages/3_06.png">
+				</div>
+				<p>
+					<span class="hot">热门：</span>
+					<span><a href="">酒店</a></span>
+					<span><a href="">洗车</a></span>
+					<span><a href="">餐饮</a></span>
+					<span><a href="">进口</a></span>
+					<span><a href="">旅游</a></span>
+					<span><a href="">如家</a></span>
+				</p>
+				<div class="nav">
+					<div class="f-items">
+						<span class="f-hy">行业分类</span>
+						<span id="f-jiantou"></span>
+						<div class="f-xiala">餐饮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></div>
+						<div class="f-xiala">服饰&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></div>
+						<div class="f-xiala">娱乐&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></div>
+						<div class="f-xiala">家具&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></div>
+						<div class="f-xiala">零售&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></div>
+						<div class="f-xiala">日化&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></div>
+						<div class="f-xiala">建材&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></div>
+						<div class="f-xiala">酒店&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></div>
+						<div class="f-xiala">旅游&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></div>
+						<div id="f-mengban"></div>
+						<div class="f-items1Content zindex">
+							<ul>
+								<li><a href="">火锅</a></li>
+								<li><a href="">自助餐</a></li>
+								<li><a href="">快餐</a></li>
+								<li><a href="">日韩料理</a></li>
+							</ul>
+						</div>
+						<div class="f-items1Content">
+							<ul>
+								<li><a href="">123</a></li>
+								<li><a href="">234</a></li>
+								<li><a href="">345</a></li>
+								<li><a href="">456</a></li>
+							</ul>
+						</div>
+						<div class="f-items1Content">
+							<ul>
+								<li><a href="">1234</a></li>
+								<li><a href="">2345</a></li>
+								<li><a href="">3456</a></li>
+								<li><a href="">4567</a></li>
+							</ul>
+						</div>
+						<div class="f-items1Content">456</div>
+						<div class="f-items1Content">567</div>
+						<div class="f-items1Content">678</div>
+						<div class="f-items1Content">789</div>
+						<div class="f-items1Content">890</div>
+						<div class="f-items1Content">901</div>
+					</div>
+					<ul id="f-navContent">
+						<li><a href="">首页</a></li>
+						<li><a href="">精选品牌</a></li>
+						<li><a href="">今日特价</a></li>
+						<li><a href="">积分商城</a></li>
+						<li><a href="">加入易和</a></li>
+
+					</ul>
+					
+					<div id="f-navRight">
+						<a href="">在线客服</a>
+						<div id="f-navFrame">
+							<div class="service"><div></div>客服一</div>
+							<div class="service"><div></div>客服二</div>
+							<div class="service"><div></div>客服三</div>
+							<div class="service"><img src="../Fimages/ewm1.jpg"/></div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+
+		<!-- 内容部分 -->
+		<div class="f-content">
+			<div class="type-area">
+				<div class="f-left">
+					<p>
+						<img src="../Fimages/2_06.png" class="">
+						<span>个人中心</span>
+					</p>
+					<ul>
+						<li>交易管理&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></li>
+						<li>我的账户</li>
+						<li>我的订单</li>
+						<li>我的积分</li>
+						<li>我的易和券</li>
+					</ul>
+					<ul>
+						<li>会员资料&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></li>
+						<li>个人资料</li>
+						<li>地址管理</li>
+						<li>我的收藏</li>
+						<li>最近浏览</li>
+						<li>修改密码</li>
+					</ul>
+					<ul>
+						<li>站内信&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></li>
+						<li>我的消息</li>
+					</ul>
+				</div>
+				
+				<div class="f-right1">
+					<div class="f-div1">
+						
+						
+						<p>
+							<span>订单编号：15041305000006958388</span>
+							<span>订单状态：</span>
+							<span>待付款</span>
+							<button>立即支付</button>
+							<button>取消订单</button>
+						</p>
+						<div class="f-f-money">
+							<p>
+								<span>支付方式</span>
+								<span>支付宝</span>
+							</p>
+							<p class="f-mb">
+								<span>支付流水号</span>
+								<span>4643196461647896166</span>
+							</p>
+							<p>
+								<span>下单时间</span>
+								<span>2016-04-03  16:11:38</span>
+							</p>
+							<p>
+								<span>支付时间</span>
+							</p>
+							<p>
+								<span>验券时间</span>
+							</p>
+							<p>
+								<span>申请退款时间</span>
+							</p>
+							<p>
+								<span>退款时间</span>
+							</p>
+							<p>
+								<span>订单信息</span>
+								<span>希望包装的严实一点，不要有破损情况，谢谢</span>
+							</p>
+						</div>
+
+						<div class="f-mjxx">
+							<span>卖家信息</span>
+						</div>
+						<div class="f-dpmc">
+							<p>
+								<span>店铺名称</span>
+								<span>海澜之家旗舰店</span>
+							</p>
+							<p>
+								<span>真实姓名</span>
+								<span>赵敏芝</span>
+							</p>
+							<p>
+								<span>联系电话</span>
+								<span>0512-25664952</span>
+							</p>
+						</div>
+						<div class="f-splb">
+							<span>商品列表</span>
+						</div>
+						<div class="f-qjd">
+							<p>
+								<span class="f-hl">海澜之家旗舰店</span>
+								<span>单价</span>
+								<span>数量</span>
+								<span>金额</span>
+							</p>
+							<ul>
+								<li><img src="../Fimages/22_03.png"></li>
+								<li>《寻龙诀》北京保利龙旗广场</li>
+								<li>￥35.0</li>
+								<li>1</li>
+								<li>￥35.0</li>
+							</ul>
+							<ul>
+								<li><img src="../Fimages/22_03.png"></li>
+								<li>《寻龙诀》北京保利龙旗广场</li>
+								<li>￥35.0</li>
+								<li>1</li>
+								<li>￥35.0</li>
+							</ul>
+							<ul>
+								<li><img src="../Fimages/22_03.png"></li>
+								<li>《寻龙诀》北京保利龙旗广场</li>
+								<li>￥35.0</li>
+								<li>1</li>
+								<li>￥35.0</li>
+							</ul>
+							<div class="f-money">
+								<div class="f-je">
+									<span>商品金额</span><br>
+									<span class="f-num">￥108.0</span>
+								</div>
+								<div class="f-hj">
+									<span>店铺合计</span><br>
+									<span class="f-num">￥113.0</span>
+								</div>
+
+							</div>
+						</div>
+						<div>
+							<div class="f-jf">
+								<span class="f-f-jf">使用积分抵扣（50积分）</span>
+								<span class="f-dk">-￥5.00</span>
+							</div>
+							
+							<div class="f-tj">
+								<span>实付金额：</span>
+								<span class="f-my">￥36.0</span><br>
+								<button class="f-btn1">立即支付</button>
+								<button class="f-btn2">取消订单</button>	
+							</div>
+							
+						</div>
+
+					</div>
+				</div>	
+			</div>
+		</div>
+
+		<div style="clear: both;"></div>
+
+
+
+		<!-- 尾部 -->
+		<div id="f-foot">
+			<div id="f-footTops" >
+				<ul id="f-footTop">
+					<li><span id="f-footTop1"></span>正品保障</li>
+					<li><span id="f-footTop2"></span>全程追踪</li>
+					<li><span id="f-footTop3"></span>客户监督</li>
+					<li><span id="f-footTop4"></span>售后无忧</li>
+					<li id="a-im"><span id="f-footTop5"></span>准时送达</li>
+				</ul>
+
+			</div>
+			<div id="f-footContent">
+				<img src="../Fimages/footer_logo.png">
+				<div class="f-ewms">
+					<div class="f-ewmw">
+						<img src="../Fimages/ewm1.jpg">
+						<div class="f-ewm"><span></span>APP下载</div>
+						
+					</div>
+					<div class="f-ewmw">
+						<img src="../Fimages/ewm1.jpg">
+						<div class="f-sewm"><span></span>官方微信</div>
+						
+					</div>
+					<div id="f-line"></div>
+					
+				</div>
+				<ul class="f-footContentUl">
+					<li>
+						<ul class="f-ContentUl">
+							<li>关于易和</li>
+							<li><a href="">新用户注册</a></li>
+							<li><a href="">在线下单</a></li>
+							<li><a href="">支付方式</a></li>
+						</ul>
+						<ul class="f-ContentUl">
+							<li>配送说明</li>
+							<li><a href="">运费说明</a></li>
+							<li><a href="">配送方式</a></li>
+							<li><a href="">发票说明</a></li>
+						</ul>
+						<ul class="f-ContentUl">
+							<li>售后服务</li>
+							<li><a href="">退换货规则</a></li>
+							<li><a href="">服务保障承诺</a></li>
+							<li><a href="">验货与签收</a></li>
+						</ul>
+						<ul class="f-ContentUl">
+							<li>加盟易和</li>
+							<li><a href="">加盟条款</a></li>
+							<li><a href="">公司简介</a></li>
+							<li><a href="">服务协议</a></li>
+						</ul>
+					</li>
+					
+				</ul>
+
+			</div>
+			<div id="f-footFootLine">
+				<div id="f-footFoot">
+					<p>版权所有&nbsp;&nbsp;版权所有&nbsp;&nbsp;©&nbsp;&nbsp;2016易和生活港&nbsp;&nbsp;保留所有权利&nbsp;&nbsp;|&nbsp;&nbsp;沪ICP备：120421163</p>
+					<p>易和生活&nbsp;&nbsp;纵享品质</p>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,252 @@
+.a-adderss{
+	width: 1185px;
+	margin: 20px auto;
+	font-size: 17px;
+	
+}
+.a-adderss>a:hover{
+	color: #ec6a17;
+}
+#navLine{
+	width: 100%;
+	min-width: 1190px;
+	background-color: #f2f2f2;
+}
+#a-seller-frame{
+	width: 1185px;
+	height: 492px;
+	background-color: #fff;
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid #d3d3d3;
+	z-index: 100;
+}
+.a-seller-lunbo{
+	width: 360px;
+	display: inline-block;
+	margin: 20px;
+}
+.a-sellerlunbo-items>span{
+	font-size: 30px;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: top;
+	width: 17px;
+	display: inline-block;
+}
+.a-seller-center{
+	display: inline-block;
+	width: 574px;
+}
+#a-seller-head{
+	background: url(../images/tupianjingling.png) no-repeat;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-position: -200px -20px;
+	
+
+}
+#a-seller-name{
+	background: url(../images/tupianjingling.png) no-repeat;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-position: -200px -50px;
+}
+#a-seller-phone{
+		background: url(../images/tupianjingling.png) no-repeat;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-position: -200px -80px;
+}
+.a-seller-center{
+	margin-left: 20px;
+	vertical-align: top;
+}
+.a-seller-center>p{
+	color:#008de1;
+	font-size: 26px;
+	margin-top: 20px;
+}
+.a-seller-middle{
+	border-top: 1px solid #e3e3e3;
+
+}
+.a-seller-middle>span,.a-seller-middle>label{
+	font-size: 15px;
+	
+	display: inline-block;
+}
+.a-seller-middle>label:first-child{
+	margin: 20px auto;
+}
+.a-seller-middle>span:last-child{
+	margin-bottom: 20px;
+}
+.a-seller-middle>span{
+	display: inline-block;
+	
+	border: 1px solid #d3d3d3;
+	width: 48px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+}
+.a-seller-center>h6{
+	font-size: 14px;
+	
+	font-weight: normal;
+	margin: 10px auto;
+	
+}
+.A-buyFrame{
+	width: 570px;
+	height: 150px;
+	border: 1px solid #e1e1e1;  
+}
+.A-buyFrame>span:first-child{
+	font-size: 20px;
+	color: #ea0000;
+	display: inline-block;
+	margin: 20px 20px 30px 20px;
+}
+.A-buyFrame>span:nth-child(2){
+	text-decoration: line-through;
+	margin: 20px 115px 30px 0;
+	display: inline-block;
+	color: #666666;
+	
+	
+}
+.A-buyFrame>span:nth-child(3){
+	color:#a9a9a9;
+}
+.A-buyFrame>span:nth-child(5){
+	font-size: 17px;
+	margin-left: 20px;
+}
+.A-buyFrame img{
+	width: 15px;
+	height: 15px;
+	
+}
+.a-add{
+	margin-left: -6px;
+}
+.A-buyFrame>div{
+	line-height:30px ;
+	text-align: center;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: #f2f2f2;
+	border: 1px solid #d3d3d3;
+}
+.A-buyFrame>.a-value{
+	width: 45px;
+	height: 28px;
+	text-align: center;
+	margin-left: -6px;
+}
+.A-buyFrame>.a-addcar,.a-buyonce{
+	width: 130px;
+	height: 45px;
+	background-color: #ffac77;
+	border: 0;
+	border-radius: 5px;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 100;
+	margin-left: 20px;
+}
+.a-buyonce{
+	background-color: #ec6a17;
+}
+.a-share>span:first-child{
+	display: inline-block;
+	background: url(../images/tupianjingling.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	background-position: -60px -78px;
+	/*vertical-align: middle;*/
+}
+.a-share>span:nth-child(3){
+	margin-left: 30px;
+}
+.a-share>img{
+	vertical-align: middle;
+}
+.a-share{
+	margin-top: 30px;
+}
+.a-seller-right{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+	text-align: center;
+	/*width: 200px;*/
+}
+
+
+
+.a-seller-right span{
+	display: inline-block;
+	
+}
+.a-qqimage span{
+	text-align: center;
+	line-height: 25px;
+	vertical-align: middle;
+}
+
+.a-qqimage>span:nth-child(1){
+	
+	background: url(../images/tupianjingling.png) no-repeat;
+	width: 25px;
+	height: 25px;
+	background-position: -55px 0px;
+}
+.a-seller-right>.a-enterSeller{
+	width: 125px;
+	height: 30px;
+	background-color: #008de1;
+	color: #fff;
+	border: 0;
+	border-radius: 5px;
+	margin-top: 40px;
+}
+
+
+.a-qqimage{
+	display: inline-block;
+	width: 125px;
+	height: 33px;
+	line-height: 33px;
+	background-color: #ec6a17;
+	border-radius: 5px;
+    color:#fff;
+	text-align: center;
+	margin-top: 40px;
+	
+}
+.a-qqimages{
+	margin-top: 20px;
+}
+
+.a-seller-right>img{
+	margin-left:10px;
+	
+}
+
+#navLine{
+	border-top: 2px solid #008de1;
+	
+}
+#a-seller-frame>img:first-child{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+

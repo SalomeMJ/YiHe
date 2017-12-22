@@ -1,0 +1,529 @@
+.a-headerTop{
+    width: 100%;
+    min-width: 1190px;
+}
+
+#B_deliveryContent{
+    width: 1180px;
+    height: 2515px;
+    margin: 26px auto;
+    border:1px solid #d3d3d3;
+}
+#B_deliverContentTop{
+    width: 1103px;
+    margin: 0 auto;
+    height: 160px;
+    line-height: 160px;
+    border-bottom:1px solid #d3d3d3;
+}
+#B_deliverContentTop>img{
+    vertical-align: middle;
+}
+#B_deTopRight{
+    width: 715px;
+    height: 40px;
+    float: right;
+    margin-top: 70px;
+    position: relative;
+}
+#B_deTopRight img:nth-child(1){
+    vertical-align: top;
+}
+#B_deTopRight img:nth-child(3){
+    vertical-align: top;
+    margin-top: -6px;
+    margin-left: -15px;
+}
+#B_deTopRight img:nth-child(5){
+    vertical-align: top;
+    margin-top: -165px;
+    margin-left:467px;
+}
+#B_deTopRight img:nth-child(5){
+
+}
+#B_deTopRight span:nth-child(2){
+    position: absolute;
+    top: -57px;
+    left: 70px;
+    font-size: 16px;
+    color:#666;
+}
+#B_deTopRight span:nth-child(4){
+    position: absolute;
+    top: -57px;
+    left: 300px;
+    font-size: 16px;
+    color:#fff;
+}
+#B_deTopRight span:nth-child(6){
+    position: absolute;
+    top: -57px;
+    left: 550px;
+    font-size: 16px;
+    color:#666;
+}
+/*收货人信息*/
+.B_deContents{
+    width: 1103px;
+    margin: 0 auto;
+}
+.B_deliveryOwn{
+    display: inline-block;
+    width: 1103px;
+    height: 80px;
+    line-height: 90px;
+    font-size: 20px;
+    color:#666;
+    border-bottom:1px solid #e9e9e9;
+}
+.B_dmess span{
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    color:#666;
+    letter-spacing: 2px;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.B_dmess .B_item1{
+    width: 333px;
+    height: 34px;
+    line-height: 35px;
+    text-indent: 5px;
+}
+#B_deliveryName{
+    text-indent: 10px;
+    color:#f60;
+    /*background-color:#f66;*/
+}
+/******************************/
+div.B_name{
+    position: relative;
+}
+#B_alertName{
+    width: 180px;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    /*border:1px solid red;*/
+    display: none;
+}
+#B_alertNa{
+    display: inline-block;
+    width: 130px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 15px;
+    color:#f60;
+    border-radius: 5px;
+    border:1px solid red;
+}
+/*********************************/
+.B_address{
+    width: 467px;
+    height: 35px;
+    line-height: 35px;
+
+}
+.B_phone{
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+}
+.B_phones{
+    width: 49px;
+    height: 35px;
+    line-height: 35px;
+}
+.B_dmess .B_line{
+    display: inline-block;
+    width: 10px;
+}
+.B_phoness{
+    width: 125px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: -18px;
+}
+.B_deContents button{
+    width: 170px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ec6a17;
+    color: #fff;
+    font-size:14px;
+    border:none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 170px;
+    margin-top: 43px;
+}
+.B_dmess{
+    position: relative;
+}
+.B_dmess div.Binfo{
+    position: absolute;
+    top: 20px;
+    left:143px;
+    display: inline-block;
+}
+.Binfo select{
+    margin-right: 20px;
+    width: 138px;
+    height: 35px;
+    text-align: center;
+    border:1px solid #d3d3d3;
+    color:#666;
+    font-size: 17px;
+    background-color: #fff;
+
+}
+/***********************************/
+#B_alerts{
+    width: 180px;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    top: 20px;
+    left: 630px;
+    /*border:1px solid red;*/
+    display: none;
+}
+#B_alert{
+    display: inline-block;
+    width: 120px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 15px;
+    color:#f60;
+    border-radius: 5px;
+    border:1px solid red;
+}
+.B_alertImg{
+    vertical-align: middle;
+}
+/************************************/
+#B_address{
+    text-indent: 10px;
+    color:#f60;
+}
+#B_phoneNum{
+    text-indent: 10px;
+    color:#f60;
+}
+/************************************/
+div.B_dAddress{
+    position: relative;
+}
+#B_alertAddress{
+    width: 180px;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    top: 20px;
+    left: 650px;
+    /*border:1px solid red;*/
+    display: none;
+}
+#B_alertAd{
+    display: inline-block;
+    width: 130px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 15px;
+    color:#f60;
+    border-radius: 5px;
+    border:1px solid red;
+}
+/************************************/
+/*商品信息*/
+#B_goodsMess{
+    width: 1101px;
+    height: 370px;
+    border:1px solid #d3d3d3;
+    margin-top: 20px;
+}
+#B_goodsMessTop{
+    width: 1101px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #f2f2f2;
+
+}
+#B_goodsMessTop img{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+#B_goodsMessTop span{
+    color: #333;
+    font-size: 15px;
+}
+#B_goodsMessTop span:nth-child(2){  margin-right: 245px;  }
+#B_goodsMessTop span:nth-child(3){  margin-right: 103px;  }
+#B_goodsMessTop span:nth-child(4){  margin-right: 86px;  }
+#B_goodsMessTop span:nth-child(5){  margin-right: 89px;  }
+#B_goodsMessTop span:nth-child(6){  margin-right: 84px;  }
+.B_goods ul{
+    width: 1101px;
+}
+.B_goods ul li{
+    width: 1101px;
+}
+/*.B_viewPrice{
+    border: none;
+}
+.B_banben{
+    border:none;
+}*/
+.B_goods ul li input{
+    width: 20px;
+    height: 20px;
+    border:1px solid #d3d3d3;
+    margin-left: 10px;
+    margin-right: -10px;
+}
+.B_goods ul li img{
+    margin-left:20px;
+
+}
+.B_goods .B_banben{
+    margin-left:-20px;
+}
+.B_goods .B_viewPrice{
+    margin-right:500px;
+}
+.B_count{
+    display: inline-block;
+    width: 102px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 328px;
+    border:1px solid #d3d3d3;
+}
+.B_countsAdd{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    background-color: #f2f2f2;
+    font-size: 40px;
+    float: left;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.B_countRight{
+    float: right;
+}
+.B_countItem{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.B_viewPrices{
+    margin-left: 40px;
+}
+.B_goods .B_viewDrop{
+    font-size: 14px;
+    color:#008de1;
+    margin-left: 85px;
+    cursor: pointer;
+}
+.B_viewDrop:hover{
+    text-decoration: underline;
+}
+#B_yunfei{
+    width: 760px;
+    margin-left: 320px;
+    position: relative;
+}
+#B_yunfei span{
+    margin-right: 100px;
+    color: #6e6e6e;
+    font-size: 16px;
+
+}
+#B_yunfeiPrice{
+    margin-top: 5px;
+    width: 760px;
+    margin-left: 320px;
+    position: absolute;
+}
+#B_yunfeiPrice span{
+    display: inline-block;
+    width: 90px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 65px;
+    color: #ff6c00;
+    font-size: 16px;
+    /*border:1px solid red;*/
+}
+/*开票*/
+.B_cardSelt{
+    display: inline-block;
+    margin:20px 30px 10px auto;
+}
+.B_cardSelt input{
+    margin-right: 5px;
+}
+.B_cardSelt span,.B_cardss{
+    font-size: 15px;
+    color:#666;
+}
+.B_cardsMes{
+    width: 370px;
+    height: 35px;
+}
+.star{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.B_pleaseCheck{
+    font-size: 14px;
+    color:#666;
+}
+/*添加备注信息*/
+.B_remarks{
+    margin-top: 20px;
+    width: 612px;
+    height: 35px;
+    font-size: 13px;
+    color:#999;
+    text-indent: 8px;
+    margin-bottom: 43px;
+}
+#B_remarkdMess{
+    height: 367px;
+    border:1px solid #d3d3d3;
+}
+#B_remarkMessTop{
+    width: 1101px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #f2f2f2;
+
+}
+#B_remarkMessTop img{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+#B_remarkMessTop span{
+    color: #333;
+    font-size: 15px;
+}
+#B_remarkMessTop span:nth-child(2){  margin-right: 245px;  }
+#B_remarkMessTop span:nth-child(3){  margin-right: 103px;  }
+#B_remarkMessTop span:nth-child(4){  margin-right: 86px;  }
+#B_remarkMessTop span:nth-child(5){  margin-right: 89px;  }
+#B_remarkMessTop span:nth-child(6){  margin-right: 84px;  }
+/*添加订单信息*/
+#B_totalMony{
+    height:135px;
+    border-bottom:1px solid #d3d3d3;
+}
+#B_totalMony div{
+    margin-left: 715px;
+    margin-top: 10px;
+}
+#B_totalMony div:nth-child(1){
+    margin-left:970px;
+}
+#B_totalMony div:nth-child(1) span:nth-child(1){
+    font-size: 16px;
+    color:#666;
+    margin-right: 5px;
+}
+#B_totalMony div:nth-child(1) span:nth-child(2){
+    font-size: 20px;
+    color: #ff6c00;
+    margin-right: 5px;
+}
+#B_totalMony div:nth-child(2) span:nth-child(1){
+    font-size: 16px;
+    color:#666;
+}
+#B_totalMony div:nth-child(2) input{
+    width: 90px;
+    height: 35px;
+    text-align: center;
+    color:#494949;
+}
+#B_totalMony div:nth-child(2) span:nth-child(3){
+    font-size: 16px;
+    color: #666;
+    margin-right: 5px;
+}
+#B_totalMony div:nth-child(2) input:nth-child(2){
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    /*border:1px solid red;*/
+}
+#B_shouldMoney{
+    height:135px;
+}
+#B_shouldMoney div{
+    margin-left: 895px;
+}
+#B_shouldMoney div:nth-child(1){
+    margin:50px auto 10px 940px;
+}
+#B_shouldMoney div:nth-child(1) span:nth-child(1){
+    font-size: 16px;
+    color:#666;
+    margin-right: 5px;
+}
+#B_shouldMoney div:nth-child(1) span:nth-child(2){
+    font-size: 20px;
+    color: #ff6c00;
+    margin-right: 5px;
+}
+#B_shouldMoney div:nth-child(2) span:nth-child(1){
+    font-size: 16px;
+    color:#666;
+}
+#B_shouldMoney div:nth-child(2) span:nth-child(2){
+    font-size: 15px;
+    color: #ff6c00;
+    margin-right: 5px;
+}
+#B_shouldMoney button{
+    width: 170px;
+    height: 47px;
+    line-height: 47px;
+    font-size: 18px;
+    margin-left: 930px;
+}
+/*尾部*/
+#a-footFootLine{
+    width: 100%;
+    border-top:1px solid #d3d3d3;
+    margin-top: 43px;
+    /*background-color: red;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

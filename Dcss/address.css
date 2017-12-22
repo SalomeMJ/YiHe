@@ -1,0 +1,245 @@
+.a-Content{
+	width: 100%;
+	min-width: 1190px;
+	height: 46px;
+
+	border-bottom:2px solid #008de1;
+}
+.a-Content-head{
+	width: 1185px;
+	margin: 0 auto;
+	
+}
+.a-Content-Ul>li{
+	display: inline-block;
+	padding: 10px 35px;
+	font-size: 16px;
+}
+.a-Content-Ul>li:hover{
+	background-color: #008de1;
+}
+.a-Content-Ul>li>a:hover{
+	color: #fff;
+}
+.a-Content-Ul>li:first-child{
+	margin-left: 30px;
+}
+.a-Content-Ul>li:last-child{
+	margin-left: 165px;
+}
+.a-Content-one{
+	display: inline-block;
+	float: left;
+	width: 175px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	background-color: #008de1;
+	color: #fff;
+	font-size: 16px;
+
+}
+
+
+
+
+
+.C-content{
+	width: 100%;
+	min-width: 1190px;
+	background-color: #f2f2f2;
+}
+.C-content .C-content-cont{
+	width: 1185px;
+	height: 548px;
+	
+	margin: 0 auto;
+	padding-top: 20px;
+	
+}
+.C-content-left {
+	width: 175px;
+	height: 550px;
+	float: left;
+}
+.C-content-left #C-icon{
+	background-image: url(Dimages/tupianjingling.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-position: 0 -15px;
+	
+	margin-left: -35px;
+	
+}
+.C-content-left .G-cont{
+	width: 173px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 18px;
+	border:1px solid #d3d3d3;
+	background-color: #fff;
+
+}
+.C-content-left .dropdown{
+	border:1px solid #d3d3d3;
+	background-color: #fff;
+	height: 485px;
+	border-top: 0px;
+}
+.C-content-left .dropdown>li{
+	display: inline-block;
+	width: 145px;
+	font-size: 20px;
+	
+	margin-top: 14px;
+	margin-left: 20px;
+	font-size: 14px;
+
+}
+.C-content-left .dropdown>li:first-child{
+	font-size: 18px;
+	
+}
+.C-content-left .dropdown #six{
+	font-size: 18px;
+}
+.C-content-left .dropdown #shier{
+	font-size: 18px;
+}
+
+.C-content-right{
+	width: 988px;
+	height: 548px;
+	float: right;
+	border:1px solid #d3d3d3;
+	background-color: #fff;
+}
+.C-content-right .D-huan{
+	width: 988px;
+	height: 60px;
+	border:1px solid #d3d3d3;
+	background-color: #fff;
+	border-left: 0px;
+}
+.C-content-right .S-span,.S-pan{
+	
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+}
+.C-content-right .S-span{
+	font-size: 18px;
+	color: #008de1;
+	margin-top:18px;
+}
+.C-content-right .S-pan{
+	font-size: 14px;
+	color: #fff;
+	float: right;
+	width: 90px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	background-color: #f60;
+	margin-top: 15px;
+	
+	margin-right: 20px;
+	border-style: none;
+	border-radius: 4px;
+}
+
+.C-content-right .T-jia .T-top{
+	width: 948px;
+	height: 472px;
+	margin-top: 20px;
+	
+	margin: 0 auto;
+	font-size: 16px;
+}
+.C-content-right .T-jia .T-top .T-header{
+	font-size: 16px;
+	color: #000;
+	background-color: #eaeaea;
+	height: 38px;
+}
+.C-content-right .T-jia .T-top .T-header span{
+	display: inline-block;
+	padding: 0 10px;
+	margin-top: 8px;
+}
+.C-content-right .T-jia .T-top .T-header .span3{
+	margin-left: 20px;
+}
+.C-content-right .T-jia .T-top .T-header .span4{
+	margin-left: 120px;
+}
+.C-content-right .T-jia .T-top .T-header .span5{
+	margin-left: 120px;
+}
+.C-content-right .T-jia .T-top .T-header .span6{
+	margin-left: 30px;
+}
+.C-content-right .T-jia .T-top .T-header .span7{
+	margin-left: 70px;
+}
+.C-content-right .T-jia .T-top .T-cont{
+	height: 38px;
+	border: 1px solid #d3d3d3;
+	font-size: 12px;
+	color: #000;
+	border-top: 0px;
+	border-left: none;
+	border-right: none;
+}
+.C-content-right .T-jia .T-top .T-cont span{
+	display: inline-block;
+	padding: 0 10px;
+	margin-top: 10px;
+	
+}
+.C-content-right .T-jia .T-top .T-cont .span1{
+	margin-left: 10px;
+}
+.C-content-right .T-jia .T-top .T-cont .span2{
+	margin-left: 15px;
+}
+.C-content-right .T-jia .T-top .T-cont .span3{
+	margin-left: 8px;
+}
+.C-content-right .T-jia .T-top .T-cont .span4{
+	margin-left: 30px;
+}
+.C-content-right .T-jia .T-top .T-cont .span5{
+	margin-left: 30px;
+}
+.C-content-right .T-jia .T-top .T-cont .span6{
+	margin-left: 20px;
+}
+.C-content-right .T-jia .T-top .T-cont .span7 .x-mo{
+	
+	color: #ec6a17;
+	border-right: 1px solid #999;
+	padding: 0 9px;
+
+}
+.C-content-right .T-jia .T-top .T-cont .span7 .x-gai{
+
+	color: blue;
+	border-right: 1px solid #999;
+	padding: 0 9px;
+}
+.C-content-right .T-jia .T-top .T-cont .span7 .x-gai:hover{
+	text-decoration: underline;
+}
+.C-content-right .T-jia .T-top .T-cont .span7 .x-shan{
+	border-style: none;
+}
+.C-content-right .T-jia .T-top .T-cont .two{
+	margin-left: 30px;
+}
+.C-content-right .T-jia .T-top .T-cont:hover{
+	background-color: #fff3ec;
+}

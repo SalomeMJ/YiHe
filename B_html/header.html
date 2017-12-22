@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>商品搜索结果页</title>
+	<link rel="stylesheet" type="text/css" href="../B_css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../B_css/head.css">
+	<link rel="stylesheet" type="text/css" href="../B_css/header_content.css">
+	<script src="../B_js/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div class="wrap">
+		<!-- 头部 -->
+		<div class="a-header">
+			<div class="a-headerTop">
+				<div class="a-headerTopContent" >
+				<div class="a-headLeft">
+					<span>所在城市:</span>
+				    <span><a href="">北京</a></span>
+
+				</div>
+				<ul class="a-headRight">
+					<li>您好,<a href="">请登录</a></li>
+					<li><a href="">我的订单</a></li>
+					<li><a href="">我的消息</a></li>
+					<li><a href="">我是商家</a></li>
+					<li class="a-phone"><a href=""><img src="../B_images/phone.png">400-800-8820</a></li>
+				</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="a-headContent">
+				<img src="../B_images/biglogo.png" id="a-headContentImg">
+				<div class="a-headCenter">
+					<span class="a-sell B_sell">商家</span>
+					<span class="a-sell">商品</span><br>	
+					<input type="text" name="" placeholder="海澜之家旗舰店" class="a-search">
+					<div  id="a-headContentImg2">
+					
+				     </div>
+					<br>
+					<ul class="a-headCentent-ul">
+						<li>热门:</li>
+						<li><a href="">酒店</a></li>
+						<li><a href="">洗车</a></li>
+						<li><a href="">餐饮</a></li>
+						<li><a href="">进口</a></li>
+						<li><a href="">旅游</a></li>
+						<li><a href="">如家</a></li>
+					</ul>
+
+
+				</div>
+			
+		<div class="a-headFrame">
+			<div class="a-my"><span id="a-icon"></span><a href="">我的易和</a><span class="a-icons"></span></div>
+			<div class="a-buy"><span id="a-iconss"></span><a href="">购物车</a><span class="a-icons"></span></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<div class="clear"></div>
+		</div>
+		<!--导航-->
+		<div id="Bnavs">
+			<div id="Bnavwrap">
+				<ul id="Bnav">
+					<li id="Bfirstnav" class="BnavItem Bnavs">
+						<span class="B_selected">行业分类</span>
+						<span class="Bulines">v</span>
+						<ul id="Bdown">
+							<li>
+								<div class="BdownItem B1">
+									<span>餐饮</span>
+									<span class="Bjiantou">></span>
+								</div>
+							</li>
+							<li>
+								<div class="BdownItem B2">
+									<span>服饰</span>
+									<span class="Bjiantou">></span>
+								</div>
+
+							</li>
+							<li>
+								<div class="BdownItem B3">
+									<span>娱乐</span>
+									<span class="Bjiantou">></span>
+								</div>
+
+
+							</li>
+							<li>
+								<div class="BdownItem B4">
+									<span>家具</span>
+									<span class="Bjiantou">></span>
+								</div>
+
+							</li>
+							<li>
+								<div class="BdownItem B5">
+									<span>零售</span>
+									<span class="Bjiantou">></span>
+								</div>
+
+
+							</li>
+							<li>
+								<div class="BdownItem B6">
+									<span>日化</span>
+									<span class="Bjiantou">></span>
+								</div>
+
+							</li>
+							<li>
+								<div class="BdownItem B7">
+									<span>建材</span>
+									<span class="Bjiantou">></span>
+								</div>
+
+
+							</li>
+							<li>
+								<div class="BdownItem B8">
+									<span>酒店</span>
+									<span class="Bjiantou">></span>
+								</div>
+							</li>
+
+							<li>
+								<div class="BdownItem B9">
+									<span>旅游</span>
+									<span class="Bjiantou">></span>
+								</div>
+
+							</li>
+						</ul>
+						<div id="Bshow">
+							<!--餐饮-->
+							<div class="BdownContent Bone b1">
+								<span>火锅</span>
+								<span>自助餐</span>
+								<span>小吃快餐</span>
+								<span>日韩料理</span>
+								<span>西餐</span>
+								<div class="Bbotom">
+									<span>烧烤烧肉</span>
+									<span>东北菜</span>
+								</div>
+							</div>
+							<!--服饰-->
+							<div class="BdownContent b2">
+								<span>男装</span>
+								<span>凉鞋凉拖</span>
+								<span>潮流女包</span>
+								<span>精品男包</span>
+								<span>功能箱包</span>
+								<div class="Bbotom">
+									<span>其他服饰</span>
+									<span>女装</span>
+								</div>
+							</div>
+							<!--娱乐-->
+							<div class="BdownContent b3">
+								<span>桌游/电玩</span>
+								<span>运动健身</span>
+								<span>足疗按摩</span>
+								<span>洗浴汗蒸</span>
+								<span>温泉</span>
+								<div class="Bbotom">
+									<span>DIY手工</span>
+									<span>密室逃脱</span>
+								</div>
+							</div>
+							<!--家具-->
+							<div class="BdownContent b4">
+								<span>成套家具</span>
+								<span>床类</span>
+								<span>柜类</span>
+								<span>床垫</span>
+								<span>沙发</span>
+								<span>桌类</span>
+								<div class="Bbotom">
+									<span>椅凳</span>
+									<span>架箱类</span>
+								</div>
+							</div>
+							<!--零售-->
+							<div class="BdownContent b5">
+								<span>超市</span>
+								<span>水果生鲜</span>
+								<span>日用品</span>
+								<span>百货</span>
+								<span>配件</span>
+								<span>其他产品</span>
+							</div>
+							<!--日化-->
+							<div class="BdownContent b6">
+								<span>面部护理</span>
+								<span>洗发护发</span>
+								<span>身体护理</span>
+								<span>口腔护理</span>
+								<div class="Bbotom">
+									<span>女性护理</span>
+									<span>香水彩妆</span>
+								</div>
+							</div>
+							<!--建材-->
+							<div class="BdownContent b7">
+								<span>基础建材</span>
+								<span>卫浴洁具</span>
+								<span>厨卫电器</span>
+								<span>卫浴五金</span>
+								<div class="Bbotom">
+									<span>地板地暖</span>
+									<span>灯具开关</span>
+								</div>
+							</div>
+							<!--酒店-->
+							<div class="BdownContent b8">
+								<span>经济型酒店</span>
+								<span>豪华酒店</span>
+								<span>主题酒店</span>
+								<span>度假酒店</span>
+								<div class="Bbotom">
+									<span>公寓型酒店</span>
+									<span>青年旅社</span>
+								</div>
+							</div>
+							<!--公园-->
+							<div class="BdownContent b9">
+								<span>温泉</span>
+								<span>景点</span>
+								<span>主题公园</span>
+								<span>水上公园</span>
+								<span>动植物园</span>
+								<div class="Bbotom">
+									<span>海洋馆</span>
+									<span>展览馆</span>
+									<span>游艇</span>
+								</div>
+							</div>
+
+						</div>
+					</li>
+					<li class="Bnavs">
+						<span>首页</span>
+					</li>
+					<li class="Bnavs">
+						<span>精选品牌</span>
+					</li>
+					<li class="Bnavs">
+						<span>今日特价</span>
+					</li>
+					<li class="Bnavs">
+						<span>积分商城</span>
+					</li>
+					<li class="Bnavs">
+						<span>加入易和</span>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+ 		<!-- 内容部分 -->
+		<div id="Bcontent">
+			<div id="Bwrap">
+				<span class="Bsearch">您现在所在的位置:搜索 ></span>
+				<span id="Blocation">海澜之家旗舰店</span>
+				<ul id="Bpicture">
+					<li class="Bsel">
+						<img src="../B_images/picture1.png" alt="">
+						<span class="Btext">自家礼包送亲人,送朋友的 <br>不二选择自家礼包送亲人...</span>
+						<div class="Bprice">
+							<span>￥11.8</span>
+							<span class="Bdiscount">￥20.0</span>
+						</div>
+					</li>
+					<li>
+						<img src="../B_images/picture2.png" alt="">
+						<span class="Btext">自家礼包送亲人,送朋友的 <br>不二选择自家礼包送亲人...</span>
+						<div class="Bprice">
+							<span>￥11.8</span>
+							<span class="Bdiscount">￥20.0</span>
+						</div>
+					</li>
+					<li>
+						<img src="../B_images/picture3.png" alt="">
+						<span class="Btext">自家礼包送亲人,送朋友的 <br>不二选择自家礼包送亲人...</span>
+						<div class="Bprice">
+							<span>￥11.8</span>
+							<span class="Bdiscount">￥20.0</span>
+						</div>
+					</li>
+					<li>
+						<img src="../B_images/picture4.png" alt="">
+						<span class="Btext">自家礼包送亲人,送朋友的 <br>不二选择自家礼包送亲人...</span>
+						<div class="Bprice">
+							<span>￥11.8</span>
+							<span class="Bdiscount">￥20.0</span>
+						</div>
+					</li>
+					<li>
+						<img src="../B_images/picture5.png" alt="">
+						<span class="Btext">自家礼包送亲人,送朋友的 <br>不二选择自家礼包送亲人...</span>
+						<div class="Bprice">
+							<span>￥11.8</span>
+							<span class="Bdiscount">￥20.0</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 尾部 -->
+		<div id="a-foot">
+		   <div id="a-footTops" >
+			<ul id="a-footTop">
+				<li><span id="a-footTop1"></span>正品保障</li>
+				<li><span id="a-footTop2"></span>全程追踪</li>
+				<li><span id="a-footTop3"></span>客户监督</li>
+				<li><span id="a-footTop4"></span>售后无忧</li>
+				<li id="a-im"><span id="a-footTop5"></span>准时送达</li>
+			</ul>
+			
+		  </div>
+           <div id="a-footContent">
+				<img src="../B_images/footer_logo.png">
+				<div class="a-ewms">
+					<div class="a-ewmw">
+						<img src="../B_images/ewm1.jpg">
+						<div class="a-ewm"><span></span>APP下载</div>
+						
+					</div>
+					<div class="a-ewmw">
+						<img src="../B_images/ewm1.jpg">
+						<div class="a-sewm"><span></span>官方微信</div>
+						
+					</div>
+					<div id="a-line"></div>
+					
+				</div>
+				<ul class="a-footContentUl">
+					<li>
+						<ul class="a-ContentUl">
+							<li>关于易和</li>
+							<li><a href="">新用户注册</a></li>
+							<li><a href="">在线下单</a></li>
+							<li><a href="">支付方式</a></li>
+						</ul>
+						<ul class="a-ContentUl">
+							<li>配送说明</li>
+							<li><a href="">运费说明</a></li>
+							<li><a href="">配送方式</a></li>
+							<li><a href="">发票说明</a></li>
+						</ul>
+						<ul class="a-ContentUl">
+							<li>售后服务</li>
+							<li><a href="">退换货规则</a></li>
+							<li><a href="">服务保障承诺</a></li>
+							<li><a href="">验货与签收</a></li>
+						</ul>
+						<ul class="a-ContentUl">
+							<li>加盟易和</li>
+							<li><a href="">加盟条款</a></li>
+							<li><a href="">公司简介</a></li>
+							<li><a href="">服务协议</a></li>
+						</ul>
+					</li>
+					
+				</ul>
+
+			</div>
+			<div id="a-footFootLine">
+				<div id="a-footFoot">
+					<p>版权所有&nbsp;&nbsp;版权所有&nbsp;&nbsp;©&nbsp;&nbsp;2016易和生活港&nbsp;&nbsp;保留所有权利&nbsp;&nbsp;|&nbsp;&nbsp;沪ICP备：120421163</p>
+					<p>易和生活&nbsp;&nbsp;纵享品质</p>
+
+				</div>
+
+			</div>
+
+         </div>
+	</div>
+	<script src="../B_js/header.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+#codeContent>span:nth-child(1),#codeContent>span:nth-child(3){
+	font-size: 20px;
+	color:#000000;
+}
+#codeContent>span:nth-child(1){
+	margin-left: 20px;
+}
+#codeContent>span:nth-child(3){
+	margin-left: 65px;
+}
+#codeContent>span:nth-child(2),#codeContent>span:nth-child(4){
+	color: #ec6a17;
+	font-size: 20px;
+}
+#codeContent>span{
+	display: inline-block;
+	margin-top: 20px;
+}
+#codeContent>span:nth-child(5){
+	float: right;
+}
+.codeRightTable{
+	width: 955px;
+	border: 1px solid #d3d3d3;
+	margin: 20px auto 0;
+	
+}
+.codeRightCellFirst{
+	font-size: 17px;
+	color: #000;
+	height: 35px;
+	background-color: #f2f2f2;
+}
+.codeRightCell{
+	display: inline-block;
+	border-bottom: 1px solid #d3d3d3;
+	text-align: center;
+	height: 44px;
+	line-height: 44px;
+}
+.codeRightRow1{
+	display: inline-block;
+	width: 250px;
+}
+.codeRightRow2{
+	display: inline-block;
+	width: 400px;
+}
+.codeRightRow3{
+	display: inline-block;
+	width: 293px;
+}

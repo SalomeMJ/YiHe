@@ -1,0 +1,72 @@
+#AcontentWraps{
+	width: 100%;
+	min-width: 1190px;
+	border-top: 3px solid #008de1;
+}
+#Acontent{
+	width: 1185px;
+	margin: 20px auto;
+	
+}
+#A-leftNav{
+	width: 170px;
+	height: 570px;
+	border: 1px solid #d3d3d3;
+	display: inline-block;
+}
+.personal{
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	border-bottom: 1px solid #d3d3d3;
+}
+.personal>span:first-child{
+	background: url(../images/tupianjingling.png);
+	background-position: 0px -16px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+.personal>span{
+	font-size: 20px;
+}
+.a-business>span{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 15px;
+	display: inline-block;
+	
+}
+.a-business p{
+
+	font-size: 14px;
+	margin-top: 15px;
+	font-weight: 200;
+}
+.a-business p>a:hover{
+	text-decoration: underline;
+	color: #ed7122;
+}
+
+.a-business{
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
